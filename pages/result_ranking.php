@@ -1,10 +1,10 @@
 <?php
-include('../header.php');
+include('../header1.php');
 
 ?>
 
 <style>
-	.admin-title h3 {
+	.admin-title h2 {
 		text-align: center;
 		font-weight: bold;
 		background-color: burlywood;
@@ -33,6 +33,7 @@ include('../header.php');
 	}
 
 	.image {
+		width: 100%;
 		border: 2px solid #ddd;
 		padding: 6px;
 		box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
@@ -73,7 +74,7 @@ include('../header.php');
 	}
 </style>
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/rr.jpg');">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
@@ -81,7 +82,7 @@ include('../header.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
-					<li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
 					<li class="active"><a href="#">Results & Ranking<i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>
@@ -94,7 +95,7 @@ include('../header.php');
 <section>
 	<div class="container" style="margin-top:50px; margin-bottom:50px;">
 		<div class="admin-title">
-			<h3>Results & Rankings</h3>
+			<h2>Results & Rankings</h2>
 			<h5 class="ml-4 mb-2" style="text-decoration:underline;">Achievers:</h5>
 			<p>The College has a huge play ground with all the sports amenities.
 				Students are encouraged to participate in various indoor and outdoor games and
@@ -184,7 +185,7 @@ include('../header.php');
 </section>
 
 <section>
-	<h2 class="admin-title1 mt-5" style="width:40%;">Subject wise pass percentage March 2015</h2>
+	<h2 class="admin-title1 mt-5" style="width:50%;margin-left:25%;">Subject wise pass percentage March 2015</h2>
 	<div class="container">
 		<div class="table-container">
 			<table>

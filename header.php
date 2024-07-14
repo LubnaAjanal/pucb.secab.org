@@ -73,38 +73,39 @@
                                 <div class="navbar-collapse">
                                     <!-- Main Menu -->
                                     <ul id="nav" class="nav menu navbar-nav">
-                                        <li class="active">
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/index.php') ? 'active' : ''; ?>">
                                             <a href="../index.php">Home</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages/profile.php') ? 'active' : ''; ?>">
                                             <a href="../pages/profile.php">Profile</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages/administration.php') ? 'active' : ''; ?>">
                                             <a href="../pages/administration.php">Administration</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages/board_of_mgmt.php') ? 'active' : ''; ?>">
                                             <a href="../pages/board_of_mgmt.php">Board Of Management</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages/result_ranking.php') ? 'active' : ''; ?>">
                                             <a href="../pages/result_ranking.php">Result & Ranking</a>
                                         </li>
                                         <li>
                                             <a href="#">Calendar</a>
                                             <ul class="dropdown">
-                                                <li>
+                                                <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages/calendar.php') ? 'active' : ''; ?>">
                                                     <a href="../pages/calendar.php">Arts & Commerce</a>
                                                 </li>
-                                                <li>
+                                                <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages/calendar1.php') ? 'active' : ''; ?>">
                                                     <a href="../pages/calendar1.php">Science</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages/photo_gallery.php') ? 'active' : ''; ?>">
                                             <a href="../pages/photo_gallery.php">Photo Gallery</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == 'http://alumni.secab.org/') ? 'active' : ''; ?>">
                                             <a href="http://alumni.secab.org/">Alumni</a>
                                         </li>
+                                        
                                     </ul>
                                     <!-- End Main Menu -->
                                 </div>
@@ -120,23 +121,26 @@
                                 <div class="navbar-collapse">
                                     <!-- Secondary Menu -->
                                     <ul id="secondary-nav" class="nav menu navbar-nav">
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages2/Facilities.php') ? 'active' : ''; ?>">
                                             <a href="../pages2/Facilities.php">Facilities</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages2/developing.php') ? 'active' : ''; ?>">
                                             <a href="../pages2/developing.php">Developing Potentialities</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages2/endownment.php') ? 'active' : ''; ?>">
                                             <a href="../pages2/endownment.php">Student Endowments</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages2/acitity.php') ? 'active' : ''; ?>">
                                             <a href="../pages2/acitity.php">Student Activities</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages2/council.php') ? 'active' : ''; ?>">
                                             <a href="../pages2/council.php">Student Council</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '/pages2/secab_at_glance.php') ? 'active' : ''; ?>">
                                             <a href="../pages2/secab_at_glance.php">Secab At Glance</a>
+                                        </li>
+                                        <li class="<?php echo ($_SERVER['PHP_SELF'] == '../pages2/contact.php') ? 'active' : ''; ?>">
+                                            <a href="../pages2/contact.php">Contact Us</a>
                                         </li>
                                     </ul>
                                     <!-- End Secondary Menu -->
@@ -151,4 +155,13 @@
         <!--/ End Header Inner -->
     </header>
     <!--/ End Header -->
-    
+    <script>
+        $(document).ready(function() {
+            var url = window.location.href;
+            $('#nav, #secondary-nav').find('a').each(function() {
+                if (this.href === url) {
+                    $(this).closest('li').addClass('active');
+                }
+            });
+        });
+    </script>

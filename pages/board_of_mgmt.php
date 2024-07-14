@@ -1,14 +1,14 @@
 <?php
-include('../header.php');
+include('../header1.php');
 ?>
 <style>
 	.bom-title {
 		text-align: center;
 		font-weight: bold;
 		background-color: burlywood;
-		width: 40%;
+		width: 35%;
 		padding: 17px;
-		margin: 0 0 5% 30%;
+		margin: 0 0 3% 35%;
 		border-radius: 4px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 	}
@@ -40,7 +40,7 @@ include('../header.php');
 	}
 </style>
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
@@ -48,7 +48,7 @@ include('../header.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
-					<li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
 					<li class="active"><a href="#">Board of Management<i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>
@@ -113,7 +113,7 @@ include('../header.php');
 
 <section>
 	<div class="container">
-		<h2 class="bom-title" style="width:26%; margin-left:38%;">College Staff</h2>
+		<h2 class="bom-title" style="width:25%; margin-left:38%;">College Staff</h2>
 		<h3 class="mb-3 text-center">Teaching Staff</h3>
 		<table>
 			<thead>

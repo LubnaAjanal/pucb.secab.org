@@ -50,7 +50,7 @@ include('../header.php');
             margin: 5px 0;
         }
         a {
-            color: #0066cc;
+            color: black;
             text-decoration: none;
         }
         a:hover {
@@ -60,7 +60,7 @@ include('../header.php');
 
 
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/siet.jpg');margin-top:11%;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
@@ -68,7 +68,7 @@ include('../header.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
-					<li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
 					<li class="active"><a href="#">Secab at Glance<i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>
@@ -82,56 +82,41 @@ include('../header.php');
 	<h1 class="bom-title">SECAB GROUP OF INSTITUTIONS</h1>
 
 	<h2 class="secab-heading">Engineering</h2>
-	<p>SECAB Institute of Engineering and Technology, Vijaypur.</p>
-	<p>SECAB P.G. Department of M.Tech's Vijaypur Malik Sandal Institute of Art and Architecture, Vijaypur.</p>
-	<p>Malik Sandal Polytechnic, Vijaypur.</p>
+	<p><a href="https://siet.secab.org/" target="_blank">SECAB Institute of Engineering and Technology, Vijaypur.</a></a></p>
+	<p><a href="">SECAB P.G. Department of M.Tech's Vijaypur Malik Sandal Institute of Art and Architecture, Vijaypur.</a></p>
+	<p><a href="https://mspt.secab.org/">Malik Sandal Polytechnic, Vijaypur.</a></p>
 
 	<h2 class="secab-heading">Medical</h2>
-	<p>Luqman Unani Medical College & Hospital (UG/PG) Vijaypur.</p>
-	<p>SECAB Institute of Para Medical Sciences, Vijaypur.</p>
+	<p><a href="">Luqman Unani Medical College & Hospital (UG/PG) Vijaypur.</a></p>
+	<p><a href="">SECAB Institute of Para Medical Sciences, Vijaypur.</a></p>
 
 	<h2 class="secab-heading">Professional / Degree</h2>
-	<p>SECAB Institute of BA, BBA & BCA Vijaypur.</p>
-	<p>SECAB P.G. Department of Management Studies (MBA), Vijaypur.</p>
-	<p>SECAB ARSI Degree College for Women, Vijaypur.</p>
+	<p><a href="">SECAB Institute of BA, BBA & BCA Vijaypur.</a></p>
+	<p><a href="">SECAB P.G. Department of Management Studies (MBA), Vijaypur.</a></p>
+	<p><a href="">SECAB ARSI Degree College for Women, Vijaypur.</a></p>
 
 	<h2 class="secab-heading">Pre-University</h2>
-	<p>SECAB P.U. College for Women, Vijaypur.</p>
-	<p>SECAB P.U. College for Boys, Vijaypur.</p>
-	<p>SECAB P.U. College, Bangalore.</p>
+	<p><a href="https://pucw.secab.org/">SECAB P.U. College for Women, Vijaypur.</a></p>
+	<p><a href="https://pucb.secab.org/about.htm">SECAB P.U. College for Boys, Vijaypur.</a></p>
+	<p><a href="">SECAB P.U. College, Bangalore.</a></p>
 
 	<h2 class="secab-heading">High Schools</h2>
-	<p>SECAB English Medium High School, (Boys) Naubag, Vijaypur.</p>
-	<p>SECAB English Medium High School, (Girls) Naubag, Vijaypur.</p>
-	<p>SECAB Chand Bibi Urdu High School, Naubag, Vijaypur.</p>
-	<p>SECAB Modern Kannada Medium High School, Nauraspur, Vijaypur.</p>
-	<p>SECAB Secondary Urdu Medium High School, Naubag, Vijaypur.</p>
-	<p>SECAB M.S. High School, Tikota, Dist: Vijaypur.</p>
-	<p>SECAB High School, Kadrinhalli, Bangalore.</p>
+	<p><a href="">SECAB English Medium High School, (Boys) Naubag, Vijaypur.</a></p>
+	<p><a href="">SECAB English Medium High School, (Girls) Naubag, Vijaypur.</a></p>
+	<p><a href="">SECAB Chand Bibi Urdu High School, Naubag, Vijaypur.</a></p>
+	<p><a href="">SECAB Modern Kannada Medium High School, Nauraspur, Vijaypur.</a></p>
+	<p><a href="">SECAB Secondary Urdu Medium High School, Naubag, Vijaypur.</a></p>
+	<p><a href="">SECAB M.S. High School, Tikota, Dist: Vijaypur.</a></p>
+	<p><a href="">SECAB High School, Kadrinhalli, Bangalore.</a></p>
 
 	<h2 class="secab-heading">Primary Schools</h2>
-	<p>SECAB English Medium Primary School, KKGS, Vijaypur.</p>
-	<p>SECAB Modern Urdu Primary School, Naubag, Vijaypur.</p>
-	<p>SECAB Kannada Primary School, Naubag, Vijaypur.</p>
-	<p>SECAB Primary School, Nauraspur, Vijaypur.</p>
-	<p>SECAB Primary School, Anand Nagar, Vijaypur.</p>
-	<p>SECAB Primary School, Kirti Nagar, Vijaypur.</p>
-	<p>SECAB Primary School, Kadrinhalli, Bangalore.</p>
-
-	<div class="contacts">
-		<h2 class="secab-heading">Office Contacts</h2>
-		<h3>SECAB PU COLLEGE FOR BOYS</h3>
-		<p>Behind Taj Boudi, Vijaypur – 586101, Karnataka, India.</p>
-		<p>Ph: 08352-254850</p>
-		<p>Fax: 08352-222769</p>
-		<p>Email: <a href="mailto:secab.boys@gmail.com">secab.boys@gmail.com</a></p>
-
-		<h3>SECAB Association</h3>
-		<p>12, Naubag, Vijaypur – 586101, Karnataka, India.</p>
-		<p>Ph: 08352-251321, 276930</p>
-		<p>Fax: 08352-277353</p>
-		<p>Website: <a href="http://www.secab.org" target="_blank">www.secab.org</a></p>
-	</div>
+	<p><a href="">SECAB English Medium Primary School, KKGS, Vijaypur.</a></p>
+	<p><a href="">SECAB Modern Urdu Primary School, Naubag, Vijaypur.</a></p>
+	<p><a href="">SECAB Kannada Primary School, Naubag, Vijaypur.</a></p>
+	<p><a href="">SECAB Primary School, Nauraspur, Vijaypur.</a></p>
+	<p><a href="">SECAB Primary School, Anand Nagar, Vijaypur.</a></p>
+	<p><a href="">SECAB Primary School, Kirti Nagar, Vijaypur.</a></p>
+	<p><a href="">SECAB Primary School, Kadrinhalli, Bangalore.</a></p>
 </section>
 <!--/ End Secab at Glance -->
 

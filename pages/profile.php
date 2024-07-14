@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../header1.php');
 ?>
 <style>
 	/* About the college Styling */
@@ -16,6 +16,7 @@ include('../header.php');
 	}
 
 	.image {
+		width: 100%;
 		border: 2px solid #ddd;
 		border-radius: 4px;
 		padding: 5px;
@@ -24,12 +25,13 @@ include('../header.php');
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 	}
 
-	.profileImage {
+	.profileImage img {
 		border: 2px solid #ddd;
 		border-radius: 4px;
 		padding: 5px;
 		float: left;
-		margin: 50px 0 20px 20px;
+		width: 100%;
+		margin: 50px 0 0 0;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 	}
 
@@ -92,6 +94,7 @@ include('../header.php');
 
 	.card h2,
 	span {
+		margin-top: 28px;
 		position: absolute;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -151,8 +154,8 @@ include('../header.php');
 		text-align: center;
 		background-color: burlywood;
 		padding: 15px;
-		width: 40%;
-		margin: 0 0 0 30%;
+		width: 30%;
+		margin: 0 0 0 35%;
 		height: 30%;
 	}
 
@@ -167,7 +170,7 @@ include('../header.php');
 	}
 </style>
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:10%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/profile.webp');margin-top:19%;">
 	<div class="container ">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
@@ -175,9 +178,9 @@ include('../header.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
-					<li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
 					<!-- <li><a href="#">Events<i class="fa fa-angle-right"></i></a></li> -->
-					<li class="active"><a href="events.html">Profile</a></li>
+					<li class="active"><a href="#">Profile</a></li>
 				</ul>
 			</div>
 		</div>
@@ -218,7 +221,7 @@ include('../header.php');
 
 
 <div class="container">
-	<h1 class="mainHeading text-center mt-5 mb-4">VISION & MISSION</h1>
+	<h3 class="mainHeading text-center mt-5 mb-4">VISION & MISSION</h3>
 	<section style="margin-top:50px;">
 		<div class="row">
 			<div class="col-md-6">
@@ -230,7 +233,7 @@ include('../header.php');
 				<div class="cardBox">
 					<div class="card card-custom vision">
 						<h2>VISION</h2>
-						<span>Hover Me</span>
+						<!-- <span>Hover Me</span> -->
 						<div class="content">
 							<p>To make students competent, committed, compassionate and conscientious.</p>
 						</div>
@@ -239,7 +242,7 @@ include('../header.php');
 				<div class="cardBox mt-5" style="margin-bottom:14%;">
 					<div class="card card-custom mission">
 						<h2>MISSION</h2>
-						<span>Hover Me</span>
+						<!-- <span>Hover Me</span> -->
 						<div class="content">
 							<p>Is to form intellectually competent, professionally skilled, morally responsible, socially just and culturally sensitive global citizens.</p>
 						</div>

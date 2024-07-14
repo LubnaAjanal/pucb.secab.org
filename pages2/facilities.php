@@ -1,10 +1,10 @@
 <?php
 include('../header.php');
-
 ?>
+
 <style>
     .library-section {
-        padding: 50px 0;
+        padding: 30px 0 0 0;
         background-color: #f8f9fa;
     }
 
@@ -65,30 +65,6 @@ include('../header.php');
     .image-box:hover .image-caption {
         opacity: 1;
     }
-
-    .card {
-        margin: 15px 15px 15px 15px;
-        border: 1px solid #dee2e6;
-        border-radius: 0.25rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    }
-
-    .card-header {
-        background-color: #738f73;
-        font-weight: bold;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .card-body {
-        padding: 1.25rem;
-    }
-
-    .facility-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 </style>
 
 
@@ -101,7 +77,7 @@ include('../header.php');
             </div>
             <div class="col-lg-6 col-md-6 col-12">
                 <ul class="bread-list">
-                    <li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
                     <li class="active"><a href="#">facilities<i class="fa fa-angle-right"></i></a></li>
                 </ul>
             </div>
@@ -133,30 +109,47 @@ include('../header.php');
 
 <section class="image-section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="image-box">
-                    <img src="../images/facilities/physics.jpg" alt="Image 1">
-                    <div class="image-caption">Physics Lab</div>
+        <div class="carousel-gallery">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide m-4">
+                        <a href="../images/facilities/physics.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/facilities/physics.jpg)">
+                                <div class="overlay">
+                                    <em class="mdi mdi-magnify-plus"></em>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide m-4">
+                        <a href="../images/facilities/biology.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/facilities/biology.jpg)">
+                                <div class="overlay">
+                                    <em class="mdi mdi-magnify-plus"></em>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide m-4">
+                        <a href="../images/facilities/chemistry.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/facilities/chemistry.jpg)">
+                                <div class="overlay">
+                                    <em class="mdi mdi-magnify-plus"></em>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide m-4">
+                        <a href="../images/facilities/computer.jpg" data-fancybox="gallery">
+                            <div class="image" style="background-image: url(../images/facilities/computer.jpg)">
+                                <div class="overlay">
+                                    <em class="mdi mdi-magnify-plus"></em>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="image-box">
-                    <img src="../images/facilities/biology.jpg" alt="Image 2">
-                    <div class="image-caption">Biology Lab</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="image-box">
-                    <img src="../images/facilities/chemistry.jpg" alt="Image 3">
-                    <div class="image-caption">Chemistry Lab</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="image-box">
-                    <img src="../images/facilities/computer.jpg" alt="Image 4">
-                    <div class="image-caption">Computer Lab</div>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
         <div class="row mt-4">
@@ -176,9 +169,7 @@ include('../header.php');
     </div>
 </section>
 
-
-<section class="library-section">
-    <div class="container">
+    <div class="container library-section">
         <div class="row">
             <div class="col-md-6">
                 <h2 class="admin-title1">Smart Classes</h2>
@@ -192,44 +183,46 @@ include('../header.php');
             </div>
         </div>
     </div>
-</section>
+
 
 <div class="container mb-5">
-    <div class="facility-section">
-        <div class="card" style="width: 18rem;">
-            <div class="card-header">Internet Facility</div>
-            <div class="card-body">
-                <p class="card-text"><i class="bi bi-caret-right-fill"></i> An internet facility is provided to the students in the labs and classrooms to enhance their learning skills.</p>
+    <div class="programme-section">
+        <div class="programme">
+            <h3>Internet Facility</h3>
+            <div class="programme-content">
+                <p><i class="bi bi-caret-right-fill"></i> An internet facility is provided to the students in the labs and class rooms to enhance the 
+                    learning skills.</p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-header">CCTV</div>
-            <div class="card-body">
-                <p class="card-text"><i class="bi bi-caret-right-fill"></i> The CCTV cameras are installed in the college campus for the safety & security of the students & affirmation of discipline in the campus.</p>
+        <div class="programme">
+            <h3>CCTV</h3>
+            <div class="programme-content">
+                <p><i class="bi bi-caret-right-fill"></i> The CCTV cameras are installed in the college campus for the safety & security of the students & 
+                    affirmation of discipline in the campus.</p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-header">Canteen</div>
-            <div class="card-body">
-                <p class="card-text"><i class="bi bi-caret-right-fill"></i> The college canteen provides nutritious and delicious food items.</p>
+        <div class="programme">
+            <h3>Canteen</h3>
+            <div class="programme-content">
+                <p><i class="bi bi-caret-right-fill"></i> College canteen provides nutritious and delicious food items.</p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-header">Drinking Water</div>
-            <div class="card-body">
-                <p class="card-text"><i class="bi bi-caret-right-fill"></i> The well-maintained, cool and clean drinking water units are provided for the students and staff.</p>
+        <div class="programme">
+            <h3>Drinking Water</h3>
+            <div class="programme-content">
+                <p><i class="bi bi-caret-right-fill"></i> The well maintained, cool and clean drinking water units are provided for the students and staff.</p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-header">Fire Extinguisher</div>
-            <div class="card-body">
-                <p class="card-text"><i class="bi bi-caret-right-fill"></i> To ensure the safety of the students, fire extinguishers are installed in the campus.</p>
+        <div class="programme">
+            <h3>Fire Extinguisher</h3>
+            <div class="programme-content">
+                <p><i class="bi bi-caret-right-fill"></i> To ensure the safety of the students, fire extinguishers are installed in the campus.</p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-header">Parking Facility</div>
-            <div class="card-body">
-                <p class="card-text"><i class="bi bi-caret-right-fill"></i> The college provides a vast parking facility.</p>
+        <div class="programme">
+            <h3>Parking Facility</h3>
+            <div class="programme-content">
+                <p><i class="bi bi-caret-right-fill"></i> The college provides a vast parking facility.</p>
             </div>
         </div>
     </div>

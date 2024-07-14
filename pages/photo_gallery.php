@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../header1.php');
 
 ?>
 <style>
@@ -7,9 +7,9 @@ include('../header.php');
 		text-align: center;
 		font-weight: bold;
 		background-color: burlywood;
-		width: 40%;
+		width: 30%;
 		padding: 17px;
-		margin: 5% 0 5% 30%;
+		margin: 5% 0 5% 33%;
 		border-radius: 4px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 
@@ -96,7 +96,6 @@ include('../header.php');
 		background-color: #d63031;
 		transform: scale(1.1, 1.1);
 	}
-
 	/*# Carousel Gallery*/
 </style>
 <!-- Breadcrumb -->
@@ -108,7 +107,7 @@ include('../header.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
-					<li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
 					<li class="active"><a href="#">Gallery<i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>

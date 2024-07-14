@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../header1.php');
 
 ?>
 <style>
@@ -43,7 +43,7 @@ include('../header.php');
 	}
 </style>
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/calendar.jpg');margin-top:11%;">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
@@ -51,7 +51,7 @@ include('../header.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
-					<li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
 					<li class="active"><a href="#">Calendar<i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>

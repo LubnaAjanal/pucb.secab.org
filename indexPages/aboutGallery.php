@@ -93,9 +93,9 @@
         text-align: center;
         background-color: burlywood;
         padding: 15px;
-        width: 30%;
-        margin: 0 0 0 35%;
-        height: 30%;
+        width: 25%;
+        margin: 0 0 0 38%;
+        /* height: 30%; */
     }
 
 </style>
@@ -103,42 +103,42 @@
     <h2 class="city-title mb-5">City Gallery</h2>
     <div class="box-area">
         <div class="box active">
-            <img src="images/ibrahimroza.jpg" alt="img">
+            <img src="images/aboutPhotos/ibrahimroza.jpg" alt="img">
             <!-- <i class="fa-solid fa-person-walking"></i> -->
             <h2>Ibrahim Roza</h2>
         </div>
         <div class="box">
-            <img src="images/about1.jpg" alt="img">
+            <img src="images/aboutPhotos/about1.jpg" alt="img">
             <!-- <i class="fa-solid fa-snowflake"></i> -->
             <h2>Jamiya Masjid</h2>
         </div>
         <div class="box">
-            <img src="images/about2.jpg" alt="img">
+            <img src="images/aboutPhotos/about2.jpg" alt="img">
             <!-- <i class="fa-solid fa-tree"></i> -->
             <h2>Shri Sidheshwar Temple</h2>
         </div>
         <div class="box">
-            <img src="images/about3.jpg" alt="img">
+            <img src="images/aboutPhotos/about3.jpg" alt="img">
             <!-- <i class="fa-solid fa-droplet"></i> -->
             <h2>Siberia</h2>
         </div>
         <div class="box">
-            <img src="images/about4.jpg" alt="img">
+            <img src="images/aboutPhotos/about4.jpg" alt="img">
             <!-- <i class="fa-solid fa-droplet"></i> -->
             <h2>Shivagiri Temple</h2>
         </div>
         <div class="box">
-            <img src="images/about5.jpg" alt="img">
+            <img src="images/aboutPhotos/about5.jpg" alt="img">
             <!-- <i class="fa-solid fa-droplet"></i> -->
             <h2>Bara Kaman</h2>
         </div>
         <div class="box">
-            <img src="images/about6.jpg" alt="img">
+            <img src="images/aboutPhotos/about6.jpg" alt="img">
             <!-- <i class="fa-solid fa-droplet"></i> -->
             <h2>Asar Mahal</h2>
         </div>
         <div class="box">
-            <img src="images/about7.jpg" alt="img">
+            <img src="images/aboutPhotos/about7.jpg" alt="img">
             <!-- <i class="fa-solid fa-droplet"></i> -->
             <h2>Gagan Mahal</h2>
         </div>

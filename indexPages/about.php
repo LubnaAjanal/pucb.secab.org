@@ -1,9 +1,4 @@
 <style>
-    .aboutContent {
-        text-align: justify;
-        margin: 0 20px 0 20px;
-        padding: 0;
-    }
 
     .image {
         float: left;
@@ -71,7 +66,7 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm ">
-            <img src="images/about.jpg" alt="profile image" class="image" /><br>
+            <img src="images/aboutPhotos/about.jpg" alt="profile image" class="image" /><br>
             <div class="image-title" id="image-title">
                 <h5 class="mb-0">Mr.S.A.Punekar</h5>
                 <p class="mb-0">Founder & President</p>
@@ -79,7 +74,7 @@
         </div>
         <div class="col-sm aboutcontent">
             <h3 class="about-title mb-3 pt-3">About Association</h3>
-            <p class="aboutContent pb-3">
+            <p class="p-1">
                 SECAB Association is a premier Educational Society,
                 founded in the year 1969, by the exuberant visionary
                 Mr. S.A. Punekar, who aspires to scale new heights

@@ -60,11 +60,11 @@
                     <div class="single-widget list">
                         <h2>Useful Links</h2>
                         <ul>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Home</a></li>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Profile</a></li>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Administration</a></li>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Board Of Management</a></li>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Results & Ranking</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="../index.php">Home</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="../pages/profile.php">Profile</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="../pages/administration.php">Administration</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="../pages/board_of_mgmt.php">Board Of Management</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="../pages/result_ranking.php">Results & Ranking</a></li>
                         </ul>
                     </div>
                     <!--/ End Useful Links -->
@@ -75,10 +75,8 @@
                         <h2>Useful Links</h2>
                         <ul>
                             <li><i class="fa fa-angle-right"></i><a href="#">Calendar</a></li>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Gallery</a></li>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Alumni</a></li>
-                            <!-- <li><i class="fa fa-angle-right"></i><a href="#">Board Of Management</a></li>
-                            <li><i class="fa fa-angle-right"></i><a href="#">Results & Ranking</a></li> -->
+                            <li><i class="fa fa-angle-right"></i><a href="../pages/photo_gallery.php">Gallery</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="http://alumni.secab.org/">Alumni</a></li>
                         </ul>
                     </div>
                     <!--/ End Useful Links -->

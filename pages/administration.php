@@ -1,4 +1,4 @@
-<?php include('../header.php'); ?>
+<?php include('../header1.php'); ?>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
@@ -167,7 +167,7 @@
     }
 </style>
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
@@ -175,7 +175,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-12">
                 <ul class="bread-list">
-                    <li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
                     <li class="active"><a href="#">Administration<i class="fa fa-angle-right"></i></a></li>
                 </ul>
             </div>
@@ -188,7 +188,7 @@
 <section>
     <div class="container" style="margin-top:50px; margin-bottom:50px;">
         <div class="admin-title">
-            <h3>COURSES</h3>
+            <h2>COURSES</h2>
             <p>The college offers the below mentioned PU Courses. Candidates shall select under Part-I any two of the following languages and a desired combination in Part-II.</p>
         </div>
 
