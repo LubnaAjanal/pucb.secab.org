@@ -60,7 +60,7 @@
 
     <!-- End Gallery Slider -->
 
-    <div class="news-events margarine-regular">
+    <div class="news-events">
         <div class="event-list">
             <div class="event-heading">Awards</div>
             <marquee direction="down" ONMOUSEOVER="this.stop();" ONMOUSEOUT="this.start();" scrollamount="2" width="100%" height="400px" loop="true">

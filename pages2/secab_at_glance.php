@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../header1.php');
 
 ?>
 
@@ -60,7 +60,7 @@ include('../header.php');
 
 
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/siet.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/siet.jpg');">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
@@ -83,26 +83,26 @@ include('../header.php');
 
 	<h2 class="secab-heading">Engineering</h2>
 	<p><a href="https://siet.secab.org/" target="_blank">SECAB Institute of Engineering and Technology, Vijaypur.</a></a></p>
-	<p><a href="">SECAB P.G. Department of M.Tech's Vijaypur Malik Sandal Institute of Art and Architecture, Vijaypur.</a></p>
-	<p><a href="https://mspt.secab.org/">Malik Sandal Polytechnic, Vijaypur.</a></p>
+	<p><a href="http://msiaa.secab.org/" target="_blank">SECAB P.G. Department of M.Tech's Vijaypur Malik Sandal Institute of Art and Architecture, Vijaypur.</a></p>
+	<p><a href="https://mspt.secab.org/" target="_blank">Malik Sandal Polytechnic, Vijaypur.</a></p>
 
 	<h2 class="secab-heading">Medical</h2>
-	<p><a href="">Luqman Unani Medical College & Hospital (UG/PG) Vijaypur.</a></p>
-	<p><a href="">SECAB Institute of Para Medical Sciences, Vijaypur.</a></p>
+	<p><a href="http://lumc.secab.org/" target="_blank">Luqman Unani Medical College & Hospital (UG/PG) Vijaypur.</a></p>
+	<p><a href="http://sipms.secab.org/" target="_blank">SECAB Institute of Para Medical Sciences, Vijaypur.</a></p>
 
 	<h2 class="secab-heading">Professional / Degree</h2>
-	<p><a href="">SECAB Institute of BA, BBA & BCA Vijaypur.</a></p>
-	<p><a href="">SECAB P.G. Department of Management Studies (MBA), Vijaypur.</a></p>
-	<p><a href="">SECAB ARSI Degree College for Women, Vijaypur.</a></p>
+	<p><a href="https://siba.secab.org/" target="_blank">SECAB Institute of BA, BBA & BCA Vijaypur.</a></p>
+	<p><a href="https://sbs.secab.org/" target="_blank">SECAB P.G. Department of Management Studies (MBA), Vijaypur.</a></p>
+	<p><a href="https://arsi.secab.org/" target="_blank">SECAB ARSI Degree College for Women, Vijaypur.</a></p>
 
 	<h2 class="secab-heading">Pre-University</h2>
-	<p><a href="https://pucw.secab.org/">SECAB P.U. College for Women, Vijaypur.</a></p>
-	<p><a href="https://pucb.secab.org/about.htm">SECAB P.U. College for Boys, Vijaypur.</a></p>
-	<p><a href="">SECAB P.U. College, Bangalore.</a></p>
+	<p><a href="https://pucw.secab.org/" target="_blank">SECAB P.U. College for Women, Vijaypur.</a></p>
+	<p><a href="https://pucb.secab.org/about.htm" target="_blank">SECAB P.U. College for Boys, Vijaypur.</a></p>
+	<!-- <p><a href="" target="_blank">SECAB P.U. College, Bangalore.</a></p> -->
 
 	<h2 class="secab-heading">High Schools</h2>
-	<p><a href="">SECAB English Medium High School, (Boys) Naubag, Vijaypur.</a></p>
-	<p><a href="">SECAB English Medium High School, (Girls) Naubag, Vijaypur.</a></p>
+	<p><a href="" target="_blank">SECAB English Medium High School, (Boys) Naubag, Vijaypur.</a></p>
+	<p><a href="" target="_blank">SECAB English Medium High School, (Girls) Naubag, Vijaypur.</a></p>
 	<p><a href="">SECAB Chand Bibi Urdu High School, Naubag, Vijaypur.</a></p>
 	<p><a href="">SECAB Modern Kannada Medium High School, Nauraspur, Vijaypur.</a></p>
 	<p><a href="">SECAB Secondary Urdu Medium High School, Naubag, Vijaypur.</a></p>

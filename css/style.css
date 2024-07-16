@@ -25,6 +25,7 @@
 .event-heading,
 .news-title {
 	text-align: center;
+	font-weight: bold;
 	padding: 6px 0 6px 0;
 	font-size: 24px;
 	color: black;
@@ -103,21 +104,27 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 42%;
-	background-color: #e6ebf0;
+	height: 38%;
+	background-color: #fff;
 	box-shadow: 0 4px 8px rgba(53, 51, 51, 0.7);
 	z-index: 1000;
 }
 
-.header .menu-bar,
-.header .menu-bar1 {
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+.header .menu-bar {
+	background-color: #e6e6e6;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 	z-index: 999;
 	width: 100%;
 	display: inline-block;
 }
 
+.header .menu-bar1 {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 0 1px  rgba(0, 0, 0, 0.2);
+	z-index: 999;
+	width: 100%;
+	display: inline-block;
+}
 .header-inner .logo img {
 	margin: 15px 0 0 20%;
 	float: left;
@@ -140,8 +147,9 @@
 }
 
 .header .nav-link {
+	/* font-family: 'Times New Roman', Times, serif; */
 	text-decoration: none;
-	color: #252525;
+	color: #302f30;
 	font-weight: bold;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -156,20 +164,31 @@
 }
 
 .header .dropdown-menu {
-	background: #fff;
+	background: rgb(212, 223, 218);
 	box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.2);
 }
 
 .header .dropdown-item {
 	color: #555;
+	background: rgb(212, 223, 218);;
 	text-transform: capitalize;
 	padding: 5px 20px;
 	font-weight: 400;
 }
 
-.header .dropdown-item:hover {
-	color: #068f1d;
-	text-decoration: underline;
+.nav-item.dropdown .nav-link.active {
+    color: #068f1d;
+    text-decoration: underline;
+}
+
+.header .dropdown-item:hover,
+.header .dropdown-item.active {
+    color: #068f1d;
+    text-decoration: underline;
+}
+
+.header .dropdown-item.active {
+    background-color: #fff;
 }
 
 /* Active Link Styling */
@@ -177,6 +196,7 @@
 	font-weight: bold;
 	color: #068f1d;
 	text-decoration: underline;
+	/* background-color: #fff; */
 }
 .header .nav-item>.nav-link:hover {
 	font-weight: bold;
@@ -342,7 +362,7 @@
 =================================*/
 .courses {
 	background: #f8f8f8;
-	margin-top: 20%;
+	margin-top: 18%;
 	/* padding: 15% 0 0 0; */
 }
 
@@ -422,12 +442,15 @@
 =================================================*/
 
 /*===============================
-	Profile  CSS
+	other  CSS
 =================================*/
+li{
+	list-style: none;
 
+}
 
 /*===============================
-	End Profile  CSS
+	End other  CSS
 =================================*/
 
 /*===============================
@@ -577,7 +600,7 @@
 
 /* Breadcrumbs CSS */
 .breadcrumbs {
-	margin-top:19%;
+	margin-top:18%;
 	background-position: 100%;
 	position: relative;
 	background-repeat: no-repeat;
@@ -592,7 +615,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
+	background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
 	z-index: 0;
 }
 

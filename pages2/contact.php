@@ -1,19 +1,19 @@
 <?php
-include('../header.php');
+include('../header1.php');
 ?>
 
 <style>
-    .courses .card {
+    .contact .card {
         border: 1px solid #e3e3e3;
         border-radius: 10px;
         width:60%;
         margin: 0 0 0 20%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
-    .courses .card-body {
+    .contact .card-body {
         padding: 20px;
     }
-    .courses .secab-heading {
+    .contact .secab-heading {
         text-align: center;
 		font-weight: bold;
 		background-color: burlywood;
@@ -23,25 +23,28 @@ include('../header.php');
 		border-radius: 4px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     }
-    .courses .card-subtitle {
+    .contact .card-subtitle {
         font-size: 1.4rem;
         color: #343a40;
         margin-top: 15px;
     }
-    .courses .card-text {
+    .contact .card-text {
         font-size: 1rem;
         color: #6c757d;
     }
-    .courses .card-text a {
+    .contact .card-text a {
         color: #007bff;
         text-decoration: none;
     }
-    .courses .card-text a:hover {
+    .contact .card-text a:hover {
         text-decoration: underline;
+    }
+    .contact{
+        margin: 20% 0 0 0;
     }
 </style>
 
-<section class="courses mb-5"> 
+<section class="contact mb-5"> 
     <div class="container">
         <h2 class="card-title secab-heading">OFFICE CONTACTS</h2>
         <div class="card">

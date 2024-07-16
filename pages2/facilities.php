@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../header1.php');
 ?>
 
 <style>
@@ -69,7 +69,7 @@ include('../header.php');
 
 
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/header6.jpg');">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
