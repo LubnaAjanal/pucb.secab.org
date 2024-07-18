@@ -1,6 +1,6 @@
-body{
+body {
 	font-family: 'Times New Roman';
-	
+
 }
 
 /*===============================
@@ -120,11 +120,12 @@ body{
 
 .header .menu-bar1 {
 	background-color: rgb(255, 255, 255);
-	box-shadow: 0 0 0 1px  rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 	z-index: 999;
 	width: 100%;
 	display: inline-block;
 }
+
 .header-inner .logo img {
 	margin: 15px 0 0 20%;
 	float: left;
@@ -141,7 +142,7 @@ body{
 	margin-right: 16px;
 }
 
-.header .navbar-nav .nav-item a{
+.header .navbar-nav .nav-item a {
 	color: rgb(83, 83, 83);
 }
 
@@ -159,10 +160,10 @@ body{
 	text-transform: uppercase;
 	padding: 15px 0;
 	display: inline-block;
-	
+
 }
 
-.header .nav-link:hover{
+.header .nav-link:hover {
 	color: #068f1d;
 	text-decoration: underline;
 }
@@ -181,19 +182,19 @@ body{
 }
 
 .nav-item.dropdown .nav-link.active {
-    color: #068f1d;
-    text-decoration: underline;
+	color: #068f1d;
+	text-decoration: underline;
 }
 
 .header .dropdown .dropdown-item:hover,
 .header .dropdown-item.active {
-    color: #068f1d;
-    text-decoration: underline;
+	color: #068f1d;
+	text-decoration: underline;
 }
 
 .header .dropdown .dropdown-item.active {
 	color: #068f1d;
-    background-color: #e6e6e6;
+	background-color: #e6e6e6;
 }
 
 /* Active Link Styling */
@@ -203,10 +204,12 @@ body{
 	text-decoration: underline;
 	/* background-color: #fff; */
 }
+
 .header .nav-item>.nav-link:hover {
 	font-weight: bold;
 	color: #068f1d;
 }
+
 /* Search Form */
 .header .search-area {
 	position: absolute;
@@ -440,39 +443,163 @@ body{
 	color: #495057;
 }
 
-
-
 /*===============================================
 	End Facilities & Developing Pothentials CSS 
 =================================================*/
 
 /*===============================
-	other  CSS
+	my other  CSS
 =================================*/
-li{
+li {
 	list-style: none;
 
 }
 
+.section {
+	margin: 5% 0 0 0;
+}
+
+.heading {
+	text-align: center;
+	font-weight: bold;
+	background-color: burlywood;
+	padding: 17px;
+	margin: 0 auto;
+	height: 100%;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
 /*===============================
-	End other  CSS
+	End my other  CSS
 =================================*/
 
 /*===============================
-	Teachers CSS 
+	About CSS 
+=================================*/
+.image {
+	/* float: left; */
+	width: 100%;
+	margin: 0 0 20px 20px;
+	border: 2px solid #ddd;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	padding: 5px;
+	height: auto;
+}
+
+.image-title {
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	background-color: burlywood;
+	padding: 10px;
+	width: 50%;
+	margin: 0 0 0 30%;
+}
+
+#aboutCity {
+	margin: 6% 0 0 0;
+}
+
+.aboutcontent {
+	text-align: justify;
+	background-color: rgb(233, 221, 205);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+	z-index: 1;
+	position: relative;
+	top: 20px;
+	right: 80px;
+	/* height: auto; */
+	width: 100%;
+	padding: 8px;
+}
+
+.aboutcontent h3 {
+	margin: 0 0 0 20px;
+	overflow: hidden;
+	border-right: .17em solid orange;
+	white-space: nowrap;
+	animation: typing 3.5s steps(40, end) infinite, blink-caret .75s step-end 1 normal forwards;
+}
+
+.aboutCity {
+	background-color: rgb(233, 221, 205);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	z-index: 1;
+	position: relative;
+	top: 45px;
+	right: 50px;
+	height: 100%;
+	width: 100%;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blink-caret {
+
+	from,
+	to {
+		border-color: transparent;
+	}
+
+	50% {
+		border-color: rgb(115, 153, 115);
+	}
+}
+
+.aboutcollege {
+	margin: 0 0 0 20px;
+	border: 1px solid white;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 8px;
+	z-index: 1;
+	position: relative;
+	height: 20%;
+	width: 100%;
+}
+
+/*===============================
+	End About CSS 
 =================================*/
 
 /*===============================
-	End Teachers CSS 
+	Administration CSS 
 =================================*/
+.admin-title h2 {
+	width: 20%;
+}
+.admin-title p {
+	text-align: center;
+	margin: 30px 0 30px 0;
+	font-size: 1.2em;
+}
+
+.admissionRules{
+	margin: 4% 0 4% 0;
+}
+.admissionRules h2{
+	width:50%;
+
+}
+
+.fa-check {
+	color: #265226;
+}
 
 /*===============================
-	Events CSS 
-=================================*/
-
-
-/*===============================
-	End Events CSS 
+	End Administration CSS 
 =================================*/
 
 /*===============================
@@ -536,12 +663,22 @@ li{
 =================================*/
 
 /*===============================
-	Latest News CSS 
+	Card CSS 
 =================================*/
+.card {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
 
+.card-header {
+	background-color: #738f73;
+	color: black;
+	font-size: 23px;
+	font-weight: bold;
+}
 
 /*===============================
-	End Latest News CSS 
+	End Card CSS 
 =================================*/
 
 /*=============================
@@ -605,7 +742,7 @@ li{
 
 /* Breadcrumbs CSS */
 .breadcrumbs {
-	margin-top:18%;
+	margin-top: 18%;
 	background-position: 100%;
 	position: relative;
 	background-repeat: no-repeat;
@@ -620,7 +757,8 @@ li{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
+	background-color: rgba(0, 0, 0, 0.6);
+	/* Adjust opacity as needed */
 	z-index: 0;
 }
 
@@ -674,7 +812,8 @@ li{
 .breadcrumbs ul li i {
 	margin-left: 5px;
 }
-.breadcrumbs .bread-list .active{
+
+.breadcrumbs .bread-list .active {
 	background-color: #2e803b;
 }
 
@@ -738,7 +877,7 @@ li{
 
 .footer .list li a {
 	color: #ccc;
-	
+
 }
 
 .footer .list li i {
@@ -794,12 +933,12 @@ li{
 	color: #aaa;
 }
 
-.footer .copyright a{
-	color:#068f1d;
+.footer .copyright a {
+	color: #068f1d;
 }
 
 .footer .copyright a:hover {
-	color:#068f1d;
+	color: #068f1d;
 }
 
 /*=============================

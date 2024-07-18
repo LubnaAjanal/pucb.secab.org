@@ -3,17 +3,6 @@ include('../header1.php');
 
 ?>
 <style>
-	.bom-title {
-		text-align: center;
-		font-weight: bold;
-		background-color: burlywood;
-		width: 38%;
-		padding: 17px;
-		margin: 5% 0 5% 30%;
-		border-radius: 4px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-
-	}
 
 	/*Carousel Gallery*/
 	.carousel-gallery {
@@ -117,9 +106,9 @@ include('../header1.php');
 <!--/ End Breadcrumb -->
 
 <!-- Gallery -->
-<!-- <section class="gallery"> -->
+<section class="section">
 <div class="container">
-	<h2 class="bom-title">COLLEGE GALLERY</h2>
+	<h2 class="heading mb-4" style="width:35%;">COLLEGE GALLERY</h2>
 	<div class="carousel-gallery">
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
@@ -389,7 +378,7 @@ include('../header1.php');
 		</div>
 	</div>
 </div>
-<!-- </section> -->
+</section>
 
 <script>
 	$(function() {

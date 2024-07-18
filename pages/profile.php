@@ -2,29 +2,7 @@
 include('../header1.php');
 ?>
 <style>
-	/* About the college Styling */
-	#image-title {
-		border-radius: 10px;
-		text-align: center;
-		margin-top: 10px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-		background-color: white;
-		padding: 15px;
-		width: 38%;
-		margin: 70% 0 0 35%;
-		height: 19%;
-	}
-
-	.image {
-		width: 100%;
-		border: 2px solid #ddd;
-		border-radius: 4px;
-		padding: 5px;
-		float: left;
-		margin: 0 0 20px 20px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-	}
-
+	/* Styling for Vision & Mission */
 	.profileImage img {
 		border: 2px solid #ddd;
 		border-radius: 4px;
@@ -35,25 +13,6 @@ include('../header1.php');
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 	}
 
-	.aboutcontent {
-		margin: 0 0 0 20px;
-		border: 1px solid white;
-		background-color: white;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-		border-radius: 8px;
-		z-index: 1;
-		position: relative;
-		height: 20%;
-		width: 100%;
-	}
-
-	.about-title {
-		margin: 0 0 0 20px;
-		overflow: hidden;
-		white-space: nowrap;
-	}
-
-	/* Styling for Vision & Mission */
 	.card-custom {
 		border-radius: 18px;
 		border: 1px solid white;
@@ -189,19 +148,19 @@ include('../header1.php');
 <!--/ End Breadcrumb -->
 
 <!-- Profile -->
-<section class="profileClass" style="margin-top:5%;margin-bottom:5%">
+<section class="section" >
 	<div class="container">
 		<div class="row">
-			<div class="col-sm ">
-				<img src="../images/profile1.jpg" alt="profile image" class="image" />
-				<div class="image-title" id="image-title" style="background-color:rgb(233, 221, 205);">
+			<div class="col-sm-6">
+				<img src="../images/profile1.jpg" alt="profile image" class="img-fluid image" />
+				<div class="image-title" id="image-title" style="background-color:burlywood;">
 					<h5 class="mb-0">Mr.N.S.Bhusnur</h5>
 					<p class="mb-0"> Principal</p>
 				</div>
 			</div>
-			<div class="col-sm aboutcontent">
-				<h3 class="about-title mb-3 pt-3">About The College</h3>
-				<p class="aboutContent pb-3">
+			<div class="col-sm aboutcollege">
+				<h3 class="mb-3 pt-3">About The College</h3>
+				<p class="pb-3">
 					SECAB PU College for Boys,is situated in the heart of Vijaypur city,
 					near central bus stand. It was established in 1984.
 					The college has been recognized and aided by Government of Karnataka and

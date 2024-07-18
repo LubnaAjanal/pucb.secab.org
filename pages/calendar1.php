@@ -3,18 +3,6 @@ include('../header1.php');
 ?>
 
 <style>
-	.calendar-title {
-		font-size: 24px;
-		text-align: center;
-		font-weight: bold;
-		background-color: burlywood;
-		width: 40%;
-		padding: 17px;
-		margin: 0 0 3% 30%;
-		border-radius: 4px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-
-	}
 
 	table {
 		width: 100%;
@@ -62,8 +50,8 @@ include('../header1.php');
 <!--/ End Breadcrumb -->
 
 <!-- Calendar1 -->
-<section class="mb-5">
-	<h2 class="calendar-title mt-5">CALENDAR OF SCIENCE DEPARTMENT</h2>
+<section class="section mb-5">
+	<h2 class="heading mb-4" style="width:50%;">CALENDAR OF SCIENCE DEPARTMENT</h2>
 	<div class="container">
 		<!-- Facts & Figures Table -->
 		<div class="table-container">

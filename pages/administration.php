@@ -2,38 +2,6 @@
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-    .admin-title {
-        margin: 5% 0 0 0;
-        text-align: center;
-    }
-
-    .admission-title {
-        text-align: center;
-        font-weight: bold;
-        background-color: burlywood;
-        width: 50%;
-        padding: 17px;
-        margin: 0 0 5% 24%;
-        border-radius: 4px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-
-    }
-
-    .admin-title h3 {
-        font-weight: bold;
-        background-color: burlywood;
-        width: 20%;
-        padding: 17px;
-        margin: 0 auto;
-        border-radius: 4px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    }
-
-    .admin-title p {
-        margin: 30px 0 20px;
-        font-size: 1.2em;
-    }
-
     .table-container {
         overflow: auto;
         border-radius: .8rem;
@@ -142,18 +110,6 @@
 
     /* Administration css code */
     /* Card styles */
-    .card {
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    }
-
-    .card-header {
-        background-color: #738f73;
-        color: black;
-        font-size: 23px;
-        font-weight: bold;
-    }
-
     .card-body ul {
         padding-left: 20px;
     }
@@ -162,9 +118,7 @@
         margin-bottom: 10px;
     }
 
-    .fa-check {
-        color: #265226;
-    }
+    
 </style>
 <!-- Breadcrumb -->
 <div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/header2.jpg');">
@@ -185,10 +139,10 @@
 <!--/ End Breadcrumb -->
 
 <!-- Administration -->
-<section>
-    <div class="container" style="margin-top:50px; margin-bottom:50px;">
+<section class="section">
+    <div class="container">
         <div class="admin-title">
-            <h2>COURSES</h2>
+            <h2 class="heading">COURSES</h2>
             <p>The college offers the below mentioned PU Courses. Candidates shall select under Part-I any two of the following languages and a desired combination in Part-II.</p>
         </div>
 
@@ -252,10 +206,11 @@
         </div>
     </div>
 </section>
-<section>
+
+<section class="admissionRules">
     <div class="container">
-        <h2 class="admission-title">Admission Guidelines and Rules</h2>
-        <div class="row">
+        <h2 class="heading">Admission Guidelines and Rules</h2>
+        <div class="row mt-5">
             <!-- Entry Requirements Card -->
             <div class="col-md-6 mb-5">
                 <div class="card bg-light h-100">

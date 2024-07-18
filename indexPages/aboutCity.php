@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     .aboutContent1 {
         text-align: justify;
         margin: 0 0 0 0;
@@ -58,18 +58,18 @@
             border-color: green;
         }
     }
-</style>
+</style> -->
 
 <!-- About Association -->
 <div class="container">
-    <div class="aboutCity">
+    <div id="aboutCity">
         <div class="row">
             <div class="col-sm ">
-                <img src="images/aboutPhotos/golgumbaz.jpg" alt="profile image" class="image1" />
+                <img src="images/aboutPhotos/golgumbaz.jpg" alt="profile image" class="image" />
             </div>
-            <div class="col-sm aboutcolor">
-                <h3 class="about-title1 mb-3 pt-3">About City</h3>
-                <p class="aboutContent1 pb-3">
+            <div class="col-sm aboutCity">
+                <h3 class="mb-3 pt-3">About City</h3>
+                <p class="aboutParagrapgh">
                     Vijaypur is a district headquarter in the state of Karnataka,
                     located 530 km northwest of Bangalore and linked with important
                     towns and cities. It was once the capital of AdilShahi Kingdom

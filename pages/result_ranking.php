@@ -83,7 +83,7 @@ include('../header1.php');
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
 					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
-					<li class="active"><a href="#">Results & Ranking<i class="fa fa-angle-right"></i></a></li>
+					<li class="active"><a href="#">Results & Ranking</a></li>
 				</ul>
 			</div>
 		</div>
@@ -92,8 +92,8 @@ include('../header1.php');
 <!--/ End Breadcrumb -->
 
 <!-- Results & Ranking -->
-<section>
-	<div class="container" style="margin-top:50px; margin-bottom:50px;">
+<section class="section">
+	<div class="container">
 		<div class="admin-title">
 			<h2>Results & Rankings</h2>
 			<h5 class="ml-4 mb-2" style="text-decoration:underline;">Achievers:</h5>

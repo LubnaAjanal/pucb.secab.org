@@ -69,7 +69,7 @@ include('../header1.php');
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
 					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
-					<li class="active"><a href="#">Secab at Glance<i class="fa fa-angle-right"></i></a></li>
+					<li class="active"><a href="#">Secab at Glance</a></li>
 				</ul>
 			</div>
 		</div>
@@ -79,7 +79,7 @@ include('../header1.php');
 
 <!-- Secab at Glance -->
 <section class="secab">
-	<h1 class="bom-title">SECAB GROUP OF INSTITUTIONS</h1>
+	<h2 class="heading" style="width:45%;">SECAB GROUP OF INSTITUTIONS</h2>
 
 	<h2 class="secab-heading">Engineering</h2>
 	<p><a href="https://siet.secab.org/" target="_blank">SECAB Institute of Engineering and Technology, Vijaypur.</a></a></p>

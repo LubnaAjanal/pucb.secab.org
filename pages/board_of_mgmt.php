@@ -2,17 +2,6 @@
 include('../header1.php');
 ?>
 <style>
-	.bom-title {
-		text-align: center;
-		font-weight: bold;
-		background-color: burlywood;
-		width: 35%;
-		padding: 17px;
-		margin: 0 0 3% 35%;
-		border-radius: 4px;
-		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-	}
-
 	table {
 		width: 100%;
 		margin-bottom: 20px;
@@ -49,7 +38,7 @@ include('../header1.php');
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
 					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
-					<li class="active"><a href="#">Board of Management<i class="fa fa-angle-right"></i></a></li>
+					<li class="active"><a href="#">Board of Management</a></li>
 				</ul>
 			</div>
 		</div>
@@ -58,10 +47,9 @@ include('../header1.php');
 <!--/ End Breadcrumb -->
 
 <!-- Board of Management -->
-<section>
-	<div class="container" style="margin-top:50px; margin-bottom:50px;">
-		<h2 class="bom-title">Board of Management</h2>
-
+<section class="section">
+	<div class="container">
+		<h2 class="heading mb-4" style="width:35%;">Board of Management</h2>
 		<table>
 			<thead>
 				<tr>
@@ -113,8 +101,8 @@ include('../header1.php');
 
 <section>
 	<div class="container">
-		<h2 class="bom-title" style="width:25%; margin-left:38%;">College Staff</h2>
-		<h3 class="mb-3 text-center">Teaching Staff</h3>
+		<h2 class="heading mt-5 mb-4" style="width:20%;">College Staff</h2>
+		<h3 class="mb-3" style="text-decoration:underline">Teaching Staff</h3>
 		<table>
 			<thead>
 				<tr>
@@ -270,7 +258,7 @@ include('../header1.php');
 
 <section>
 	<div class="container">
-		<h3 class="mb-3 mt-4 text-center">Non-Teaching Staff</h3>
+		<h3 class="mb-3 mt-4" style="text-decoration:underline">Non-Teaching Staff</h3>
 		<table>
 			<thead>
 				<tr>

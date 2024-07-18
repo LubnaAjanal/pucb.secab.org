@@ -49,6 +49,12 @@
             <div class="carousel-item">
                 <img src="../images/homePhotos/logo2.jpg" alt="Gallery Image 4">
             </div>
+            <div class="carousel-item">
+                <img src="../images/image1.jpg" alt="Gallery Image 5">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/image2.jpg" alt="Gallery Image 6">
+            </div>
         </div>
         <a class="carousel-control-prev" href="#gallerySlider" data-bs-target="#gallerySlider" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

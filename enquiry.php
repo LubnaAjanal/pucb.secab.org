@@ -1,3 +1,9 @@
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
 <div class="modal in" id="enquirey" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:block; text-align: center;padding: 0!important;">
     <div class="modal-dialog-scrollable modal-dialog ">
         <div class="modal-content">
@@ -14,15 +20,7 @@
                 </div>
             </div>
 
-            <div class="modal-body">
-                <!-- <div>
-                    <img alt="" src="images/image1.jpg" style="width:100%; height:350px" />
-                </div>
-                <br><br>
-                <div>
-                    <img alt="" src="images/image2.jpg" style="width:100%; height:350px" />
-                </div>
-                <br><br> -->
+            <div class="modal-body" style="max-height: calc(100vh - 210px); overflow-y: auto;">
                 <div class="row">
                     <div class="col-md-5" style="text-align:left">
                         <label for="exampleInputEmail1">Name of the student</label>
@@ -58,7 +56,7 @@
                         <input type="text" class="form-control" name="fquali" id="fquali" placeholder="Enter Father's Qualification" required="">
                     </div>
                 </div>
-
+                <br>
                 <div class="row">
                     <div class="col-md-5" style="text-align:left"> </div>
                     <div class="col-md-7" style="text-align:left">
@@ -163,7 +161,11 @@
     </div>
 </div>
 <!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
 
 <script>
     $(document).ready(function() {
