@@ -62,7 +62,7 @@
 
     <div class="news-events">
         <div class="event-list">
-            <div class="event-heading">Awards</div>
+            <div class="event-heading">News & Events</div>
             <marquee direction="down" ONMOUSEOVER="this.stop();" ONMOUSEOUT="this.start();" scrollamount="2" width="100%" height="400px" loop="true">
                 <div class="event-item">
                     <i class="bi bi-award-fill"></i>

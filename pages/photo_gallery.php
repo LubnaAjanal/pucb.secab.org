@@ -7,9 +7,9 @@ include('../header1.php');
 		text-align: center;
 		font-weight: bold;
 		background-color: burlywood;
-		width: 30%;
+		width: 38%;
 		padding: 17px;
-		margin: 5% 0 5% 33%;
+		margin: 5% 0 5% 30%;
 		border-radius: 4px;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 

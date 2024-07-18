@@ -9,7 +9,6 @@
     <title>SECAB &minus; PUC BOYS COLLEGE</title>
 
     <!-- Web Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
