@@ -60,7 +60,7 @@ include('../header1.php');
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
 					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
-					<li class="active"><a href="#">Student Activities<i class="fa fa-angle-right"></i></a></li>
+					<li class="active"><a href="#">Student Activities</a></li>
 				</ul>
 			</div>
 		</div>

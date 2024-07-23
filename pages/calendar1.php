@@ -41,7 +41,7 @@ include('../header1.php');
 			<div class="col-lg-6 col-md-6 col-12">
 				<ul class="bread-list">
 					<li><a href="../index.php">Home<i class="fa fa-angle-right"></i></a></li>
-					<li class="active"><a href="#">Calendar<i class="fa fa-angle-right"></i></a></li>
+					<li class="active"><a href="#">Calendar</a></li>
 				</ul>
 			</div>
 		</div>

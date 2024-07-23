@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../header1.php');
 ?>
 <style>
     .bom-title {
@@ -45,16 +45,16 @@ include('../header.php');
 </style>
 
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/award.webp');">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
-                <h2>WOMENS DAY</h2>
+                <h2>Got Permission to Establish Atal Tinkering Lab</h2>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
                 <ul class="bread-list">
                     <li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
-                    <li class="active"><a href="#">Womens Day<i class="fa fa-angle-right"></i></a></li>
+                    <li class="active"><a href="#">Got Permission to Establish Atal Tinkering Lab</a></li>
                 </ul>
             </div>
         </div>

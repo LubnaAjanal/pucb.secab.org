@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../header1.php');
 ?>
 <style>
     .bom-title {
@@ -45,16 +45,16 @@ include('../header.php');
 </style>
 
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/breadcrumb-bg.jpg');margin-top:11%;">
+<div class="breadcrumbs overlay" style="background-image:url('../images/eventb.jpg');">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
-                <h2>WOMENS DAY</h2>
+                <h2>Programme On "Anti Tobacco Advocacy"</h2>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
                 <ul class="bread-list">
                     <li><a href="index.html">Home<i class="fa fa-angle-right"></i></a></li>
-                    <li class="active"><a href="#">Womens Day<i class="fa fa-angle-right"></i></a></li>
+                    <li class="active"><a href="#">Programme On "Anti Tobacco Advocacy"<i class="fa fa-angle-right"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -65,7 +65,7 @@ include('../header.php');
 <!-- Womens Day -->
 <section id="international-womens-day" class="mt-5 mb-5">
     <div class="container">
-        <h2 class="bom-title">Programme On "Anti Tobacco Advocacy "</h2>
+        <h2 class="bom-title">Programme On "Anti Tobacco Advocacy"</h2>
         <div class="row">
             <div class="col-md-8">
                 <p>SECAB PU COLLEGE FOR BOY'S ,SOCIOLOGY Department organised a Programme on "Anti Tobacco Advocacy "
