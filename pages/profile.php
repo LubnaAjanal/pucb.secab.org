@@ -2,7 +2,7 @@
 include('../header1.php');
 ?>
 <style>
-	/* Styling for Vision & Mission */
+	/* Styling for Vision & Mission
 	.profileImage img {
 		border: 2px solid #ddd;
 		border-radius: 4px;
@@ -126,7 +126,7 @@ include('../header1.php');
 		100% {
 			transform: rotate(360deg);
 		}
-	}
+	} */
 </style>
 <!-- Breadcrumb -->
 <div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/header1.avif');">
@@ -147,7 +147,7 @@ include('../header1.php');
 <!--/ End Breadcrumb -->
 
 <!-- Profile -->
-<section class="section" >
+<section class="section">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
@@ -176,40 +176,12 @@ include('../header1.php');
 		</div>
 	</div>
 </section>
+<?php
+include('../indexPages/aboutCity.php');
+include('../indexPages/aboutGallery.php');
+include('../pages2/secab_at_glance.php');
+?>
 
-
-<div class="container">
-	<h3 class="mainHeading text-center mt-5 mb-4">VISION & MISSION</h3>
-	<section style="margin-top:50px;">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="profileImage">
-					<img src="../images/profile2.jpg" alt="Vision Image">
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="cardBox">
-					<div class="card card-custom vision">
-						<h2>VISION</h2>
-						<!-- <span>Hover Me</span> -->
-						<div class="content">
-							<p>To make students competent, committed, compassionate and conscientious.</p>
-						</div>
-					</div>
-				</div>
-				<div class="cardBox mt-5" style="margin-bottom:14%;">
-					<div class="card card-custom mission">
-						<h2>MISSION</h2>
-						<!-- <span>Hover Me</span> -->
-						<div class="content">
-							<p>Is to form intellectually competent, professionally skilled, morally responsible, socially just and culturally sensitive global citizens.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>
-</div>
-</div>
 <!--/ End Profile -->
 
 

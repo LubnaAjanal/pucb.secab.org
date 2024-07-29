@@ -90,6 +90,9 @@ body {
 /*===============================
 	Header CSS 
 =================================*/
+* {
+	box-sizing: border-box;
+}
 .college-name {
 	color: black;
 	font-weight: bold;
@@ -99,81 +102,70 @@ body {
 	/* font-family: margarine-regular; */
 }
 
-.header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 38%;
+
+.header1 {
 	background-color: #fff;
 	box-shadow: 0 4px 8px rgba(53, 51, 51, 0.7);
-	z-index: 1000;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	box-sizing: border-box;
 }
 
-.header .menu-bar {
+.header-inner {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.header1 .menu-bar {
 	background-color: #e6e6e6;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-	z-index: 999;
-	width: 100%;
-	display: inline-block;
-}
-
-.header .menu-bar1 {
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-	z-index: 999;
-	width: 100%;
-	display: inline-block;
+	
 }
 
 .header-inner .logo img {
-	margin: 15px 0 0 20%;
-	float: left;
+	margin: 15px 0 0 auto;
 	width: 200px;
 	height: 70px;
 }
 
-.header .navbar-nav {
+.header1 .navbar-nav {
 	display: flex;
+	flex-wrap: wrap; 
+	justify-content: left;
+	padding: 0;
+	margin: 0;
 }
 
-.header .nav-item {
-	position: relative;
-	margin-right: 16px;
+.header1 .nav-item {
+	margin: 0;
 }
 
-.header .navbar-nav .nav-item a {
-	color: rgb(83, 83, 83);
+.header1 .navbar-nav .nav-item a {
+	color: rgb(43, 42, 42);
 }
 
-
-.header .nav-item:last-child {
-	margin-right: 0;
-}
-
-.header .nav-link {
-	/* font-family: 'Times New Roman', Times, serif; */
+.header1 .nav-link {
 	text-decoration: none;
-	color: black;
+	color: rgb(49, 48, 48);
 	font-weight: bold;
 	font-size: 14px;
 	text-transform: uppercase;
-	padding: 15px 0;
 	display: inline-block;
-
 }
 
-.header .nav-link:hover {
+.header1 .nav-link:hover {
 	color: #068f1d;
 	text-decoration: underline;
 }
 
-.header .dropdown-menu {
+.header1 .dropdown-menu {
 	background: #e6e6e6;
 	box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.2);
 }
 
-.header .dropdown-item {
+.header1 .dropdown-item {
 	color: black;
 	background: #e6e6e6;
 	text-transform: capitalize;
@@ -181,31 +173,24 @@ body {
 	font-weight: 400;
 }
 
-.nav-item.dropdown .nav-link.active {
+.header1 .dropdown .dropdown-item:hover,
+.header1 .dropdown-item.active {
 	color: #068f1d;
 	text-decoration: underline;
 }
 
-.header .dropdown .dropdown-item:hover,
-.header .dropdown-item.active {
-	color: #068f1d;
-	text-decoration: underline;
-}
-
-.header .dropdown .dropdown-item.active {
+.header1 .dropdown .dropdown-item.active {
 	color: #068f1d;
 	background-color: #e6e6e6;
 }
 
-/* Active Link Styling */
-.header .nav-item.active>.nav-link {
+.header1 .nav-item.active>.nav-link {
 	font-weight: bold;
 	color: #068f1d;
 	text-decoration: underline;
-	/* background-color: #fff; */
 }
 
-.header .nav-item>.nav-link:hover {
+.header1 .nav-item>.nav-link:hover {
 	font-weight: bold;
 	color: #068f1d;
 }
@@ -370,7 +355,8 @@ body {
 =================================*/
 .courses {
 	background: #f8f8f8;
-	margin-top: 18%;
+	/* height: 100%; */
+	margin-top: auto;
 	/* padding: 15% 0 0 0; */
 }
 
@@ -742,7 +728,6 @@ li {
 
 /* Breadcrumbs CSS */
 .breadcrumbs {
-	margin-top: 18%;
 	background-position: 100%;
 	position: relative;
 	background-repeat: no-repeat;

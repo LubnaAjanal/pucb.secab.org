@@ -1,8 +1,7 @@
 <?php
-include('../header1.php');
+// include('../header1.php');
 
 ?>
-
 
 <style>
 	.bom-title {
@@ -60,7 +59,7 @@ include('../header1.php');
 
 
 <!-- Breadcrumb -->
-<div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/siet.jpg');">
+<!-- <div class="breadcrumbs overlay" style="background-image:url('../images/headerPhotos/siet.jpg');">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
@@ -74,7 +73,7 @@ include('../header1.php');
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!--/ End Breadcrumb -->
 
 <!-- Secab at Glance -->
@@ -122,6 +121,6 @@ include('../header1.php');
 
 <!-- Footer -->
 <?php
-include('../topFooter.php');
-include('../bottomFooter.php');
+// include('../topFooter.php');
+// include('../bottomFooter.php');
 ?>

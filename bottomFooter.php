@@ -2,7 +2,7 @@
 <div class="footer-bottom">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-15">
                 <!-- Copyright -->
                 <div class="copyright">
                     <p>

@@ -65,7 +65,7 @@
     <div id="aboutCity">
         <div class="row">
             <div class="col-sm ">
-                <img src="images/aboutPhotos/golgumbaz.jpg" alt="profile image" class="image" />
+                <img src="../images/aboutPhotos/golgumbaz.jpg" alt="profile image" class="image" />
             </div>
             <div class="col-sm aboutCity">
                 <h3 class="mb-3 pt-3">About City</h3>
