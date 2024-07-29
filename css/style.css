@@ -111,11 +111,12 @@ body {
 	z-index: 999;
 	width: 100%;
 	box-sizing: border-box;
+	overflow: visible;
 }
 
 .header-inner {
 	max-width: 100%;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .header1 .menu-bar {
@@ -160,7 +161,8 @@ body {
 	text-decoration: underline;
 }
 
-.header1 .dropdown-menu {
+.header1 .dropdown .dropdown-menu {
+	margin-top: 0;
 	background: #e6e6e6;
 	box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.2);
 }

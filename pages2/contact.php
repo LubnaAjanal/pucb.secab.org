@@ -17,7 +17,7 @@ include('../header1.php');
         text-align: center;
 		font-weight: bold;
 		background-color: burlywood;
-		width: 30%;
+		width: 40%;
 		padding: 17px;
 		margin: 0 0 20px 33%;
 		border-radius: 4px;
@@ -39,12 +39,9 @@ include('../header1.php');
     .contact .card-text a:hover {
         text-decoration: underline;
     }
-    .contact{
-        margin: 20% 0 0 0;
-    }
 </style>
 
-<section class="contact mb-5"> 
+<section class="contact mb-5 mt-5"> 
     <div class="container">
         <h2 class="card-title secab-heading">OFFICE CONTACTS</h2>
         <div class="card">
