@@ -14,13 +14,13 @@
 
     #gallerySlider {
         width: 100%;
-        /* margin: 30px 0 0 0; */
+        height: 100%;
     }
 
     .carousel-item img {
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: cover; 
     }
 
     /* Adjust carousel controls */
