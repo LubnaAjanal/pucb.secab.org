@@ -32,7 +32,14 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <style>
+        /* Hide logo on smaller screens */
+        @media (max-width: 767.98px) {
+            .logo {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -50,8 +57,12 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-15">
-                    <div class="college-name mt-3 mb-0">SECAB PUC BOYS COLLEGE</div>
+                <div class="col-lg-6 col-md-6 col-15 text-effect">
+                    <span>S</span><span>E</span><span>C</span><span>A</span><span>B</span>
+                    <span>P</span><span>U</span><span>C</span>
+                    <span>B</span><span>O</span><span>Y</span><span>S</span>
+                    <span>C</span><span>O</span><span>L</span><span>L</span><span>E</span><span>G</span><span>E</span>
+                    <!-- <div class="mt-0 mb-0">SECAB PUC BOYS COLLEGE</div> -->
                 </div>
             </div>
             <!-- <div class="col-lg-3 col-md-3 col-15">
@@ -66,17 +77,20 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul id="nav" class="navbar-nav">
-                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/index.php') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="../index.php">Home</a>
+                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/headers/index.php') ? 'active' : ''; ?>">
+                                    <a class="nav-link" href="../headers/index.php">Home</a>
                                 </li>
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/profile.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages/profile.php">Profile</a>
                                 </li>
-                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/administration.php') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="../pages/administration.php">Administration</a>
-                                </li>
-                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/board_of_mgmt.php') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="../pages/board_of_mgmt.php">Board Of Management</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle <?php echo ($_SERVER['PHP_SELF'] == '/pages/administration.php' || $_SERVER['PHP_SELF'] == '/pages/board_of_mgmt.php') ? 'active' : ''; ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Administration
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/administration.php') ? 'active' : ''; ?>" href="../pages/administration.php">Courses & Admission Guidelines</a>
+                                        <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/board_of_mgmt.php') ? 'active' : ''; ?>" href="../pages/board_of_mgmt.php">Board Of Management</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/result_ranking.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages/result_ranking.php">Result & Ranking</a>
@@ -90,27 +104,28 @@
                                         <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/calendar1.php') ? 'active' : ''; ?>" href="../pages/calendar1.php">Science</a>
                                     </div>
                                 </li>
-
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/photo_gallery.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages/photo_gallery.php">Photo Gallery</a>
                                 </li>
-                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == 'http://alumni.secab.org/') ? 'active' : ''; ?>">
+                                <!-- <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == 'http://alumni.secab.org/') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="http://alumni.secab.org/">Alumni</a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/facilities.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages2/facilities.php">Facilities</a>
                                 </li>
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/developing.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages2/developing.php">Developing Potentialities</a>
                                 </li>
-                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/endowment.php') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="../pages2/endowment.php">Student Endowment</a>
-                                </li>
-                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/activity.php') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="../pages2/activity.php">Student Activities</a>
-                                </li>
-                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/council.php') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="../pages2/council.php">Student Council</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle <?php echo ($_SERVER['PHP_SELF'] == '/pages2/endowment.php' || $_SERVER['PHP_SELF'] == '/pages2/activity.php' || $_SERVER['PHP_SELF'] == '/pages2/council.php') ? 'active' : ''; ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Student Panel
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '../pages2/endowment.php') ? 'active' : ''; ?>" href="../pages2/endowment.php">Student Endowment</a>
+                                        <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/activity.php') ? 'active' : ''; ?>" href="../pages2/activity.php">Student Activities</a>
+                                        <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/council.php') ? 'active' : ''; ?>" href="../pages2/council.php">Student Council</a>
+                                    
+                                    </div>
                                 </li>
                                 <!-- <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/secab_at_glance.php') ? 'active' : ''; ?>">
                                         <a class="nav-link" href="../pages2/secab_at_glance.php">Secab At Glance</a>

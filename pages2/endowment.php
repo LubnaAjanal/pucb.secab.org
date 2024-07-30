@@ -33,10 +33,11 @@ include('../header1.php');
 		color: #495057;
 	}
 
-	.bi-check-all {
-		font-size: 22px;
-		color: green;
-		/* margin-right: 5px; */
+	.endowments-content ul li::before {
+		content: '✔';
+		color: #599c59;
+		margin-right: 10px;
+
 	}
 </style>
 
@@ -67,15 +68,15 @@ include('../header1.php');
 				<div class="endowments-content">
 					<h3>Scholarships</h3>
 					<ul>
-						<li><i class="bi bi-check-all"></i> Merit Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> MOMA Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> B.C.M. Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> SC/ST Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> Defence Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> Physically Handicapped Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> Protsahadhana Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> MAEF Girls Scholarship.</li>
-						<li><i class="bi bi-check-all"></i> Vidya Shri Scholarship.</li>
+						<li> Merit Scholarship.</li>
+						<li> MOMA Scholarship.</li>
+						<li> B.C.M. Scholarship.</li>
+						<li> SC/ST Scholarship.</li>
+						<li> Defence Scholarship.</li>
+						<li> Physically Handicapped Scholarship.</li>
+						<li> Protsahadhana Scholarship.</li>
+						<li> MAEF Girls Scholarship.</li>
+						<li> Vidya Shri Scholarship.</li>
 					</ul>
 				</div>
 			</div>

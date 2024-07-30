@@ -1,4 +1,5 @@
 body {
+	box-sizing: border-box;
 	font-family: 'Times New Roman';
 
 }
@@ -15,11 +16,9 @@ body {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	margin-bottom: 40px;
 }
-
-
 .news-events {
-	width: 30%;
-	height: 500px;
+	width: 100%;
+	/* height: 100%; */
 }
 
 .event-heading,
@@ -93,15 +92,71 @@ body {
 * {
 	box-sizing: border-box;
 }
-.college-name {
-	color: black;
-	font-weight: bold;
-	text-align: center;
-	font-size: 20px;
-	align-content: space-between;
-	/* font-family: margarine-regular; */
-}
 
+/* .text-effect {
+	margin: 0 0 0 10%;
+	color: #507750;
+	filter: saturate(2) contrast(1.5) brightness(1) hue-rotate(15deg);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	word-spacing: 0.5em;
+	letter-spacing: 3px; 
+	text-shadow: 2px 2px 4px rgba(255, 0, 222, 0.5);
+	font-weight: bold;
+	font-size: 1.8rem;
+	padding: 10px;
+} */
+
+.text-effect{
+    color: #45a36c;
+    text-shadow: 2px 2px 4px rgba(255, 0, 222, 0.5);
+    font-size: 40px;
+	word-spacing: 0.4em;
+	letter-spacing: 3px; 
+    text-align: center;
+    animation: 2s anim-popoutin ease 1;
+}
+@keyframes anim-popoutin{
+    0%{
+        color: #0d0e0d;
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        opacity: 0;
+        transform: scale(0);
+    }
+    25%{
+        color: rgb(47, 48, 47);
+        text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    50%{
+        color: #198b52;
+		text-shadow: 2px 2px 4px rgba(255, 0, 222, 0.5);
+        /* text-shadow: 1px 0 0 rgba(0, 0, 0, 0); */
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+    text-shadow: 2px 2px 4px rgba(255, 0, 222, 0.5);
+	/* text-shadow:1px 0 0 rgba(0, 0, 0, 0); */
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@media only screen and (max-width: 990px){
+    .text-effect{ font-size: 30px; }
+}
+@media only screen and (max-width: 767px){
+    .text-effect{ font-size: 30px; }
+}
+@media only screen and (max-width: 576px){
+    .text-effect{ font-size: 25px; }
+}
+@media only screen and (max-width: 479px){
+    .text-effect{
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
 
 .header1 {
 	background-color: #fff;
@@ -122,10 +177,11 @@ body {
 .header1 .menu-bar {
 	background-color: #e6e6e6;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-	
+
 }
 
 .header-inner .logo img {
+	overflow: hidden;
 	margin: 15px 0 0 auto;
 	width: 200px;
 	height: 70px;
@@ -133,7 +189,7 @@ body {
 
 .header1 .navbar-nav {
 	display: flex;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
 	justify-content: left;
 	padding: 0;
 	margin: 0;
@@ -181,7 +237,9 @@ body {
 	text-decoration: underline;
 }
 
-.header1 .dropdown .dropdown-item.active {
+.header1 .dropdown .dropdown-item.active,
+.header1 .dropdown .nav-link.active {
+	text-decoration: underline;
 	color: #068f1d;
 	background-color: #e6e6e6;
 }
@@ -568,17 +626,19 @@ li {
 .admin-title h2 {
 	width: 20%;
 }
+
 .admin-title p {
 	text-align: center;
 	margin: 30px 0 30px 0;
 	font-size: 1.2em;
 }
 
-.admissionRules{
+.admissionRules {
 	margin: 4% 0 4% 0;
 }
-.admissionRules h2{
-	width:50%;
+
+.admissionRules h2 {
+	width: 50%;
 
 }
 
@@ -669,44 +729,10 @@ li {
 	End Card CSS 
 =================================*/
 
-/*=============================
-	News Sidebar CSS
-===============================*/
-
-
-/*=============================
-	End News Sidebar CSS
-===============================*/
-
-/*=============================
-	Faqs CSS
-===============================*/
-
-/*=============================
-	End Faqs CSS
-===============================*/
-
-/*=============================
-	Contact CSS
-===============================*/
-
-/*=============================
-	End Contact CSS
-===============================*/
-
-/*=============================
-	Clinets Slider CSS
-===============================*/
-
-
-/*=============================
-	End Clinets Slider CSS
-===============================*/
-
 /*======================================
 	Others CSS
 ========================================*/
-#scrollUp {
+/* #scrollUp {
 	right: 20px;
 	width: 50px;
 	height: 50px;
@@ -721,12 +747,12 @@ li {
 	font-size: 18px;
 	border-radius: 100%;
 	font-size: 18px;
-}
+} */
 
-#scrollUp:hover {
+/* #scrollUp:hover {
 	color: #fff;
 	bottom: 15px;
-}
+} */
 
 /* Breadcrumbs CSS */
 .breadcrumbs {

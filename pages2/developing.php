@@ -32,7 +32,7 @@ include('../header1.php');
 
 	.features-section ul li:before {
 		content: '✔';
-		color: #007bff;
+		color: #599c59;
 		margin-right: 10px;
 	}
 

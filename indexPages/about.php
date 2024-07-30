@@ -2,7 +2,7 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-6">
-            <img src="images/aboutPhotos/about.jpg" alt="profile image" class="img-fluid image" />
+            <img src="../images/aboutPhotos/about.jpg" alt="profile image" class="img-fluid image" />
             <div class="image-title">
                 <h5 class="mb-0">Mr. S.A. Punekar</h5>
                 <p class="mb-0">Founder & President</p>
