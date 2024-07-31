@@ -1,4 +1,4 @@
-<?php include('../header1.php'); ?>
+<?php include('../headers/header1.php'); ?>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
@@ -327,6 +327,6 @@
 
 <!-- Footer -->
 <?php
-include('../topFooter.php');
-include('../bottomFooter.php');
+include('../headers/topFooter.php');
+include('../headers/bottomFooter.php');
 ?>

@@ -1,5 +1,5 @@
 <?php
-include('../header1.php');
+include('../headers/header1.php');
 ?>
 <style>
 	/* Styling for Vision & Mission
@@ -187,6 +187,6 @@ include('../pages2/secab_at_glance.php');
 
 <!-- Footer -->
 <?php
-include('../topFooter.php');
-include('../bottomFooter.php');
+include('../headers/topFooter.php');
+include('../headers/bottomFooter.php');
 ?>

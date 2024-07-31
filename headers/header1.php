@@ -68,7 +68,6 @@
             <!-- <div class="col-lg-3 col-md-3 col-15">
                 <div class="mobile-menu"></div>
             </div> -->
-            <!-- <div class="mt-0"> -->
             <div class="col-15">
                 <div class="menu-bar">
                     <nav class="navbar navbar-expand-lg navbar-light">
@@ -85,7 +84,7 @@
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle <?php echo ($_SERVER['PHP_SELF'] == '/pages/administration.php' || $_SERVER['PHP_SELF'] == '/pages/board_of_mgmt.php') ? 'active' : ''; ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Administration
+                                        Administration
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/administration.php') ? 'active' : ''; ?>" href="../pages/administration.php">Courses & Admission Guidelines</a>
@@ -107,9 +106,6 @@
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/photo_gallery.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages/photo_gallery.php">Photo Gallery</a>
                                 </li>
-                                <!-- <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == 'http://alumni.secab.org/') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="http://alumni.secab.org/">Alumni</a>
-                                </li> -->
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/facilities.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages2/facilities.php">Facilities</a>
                                 </li>
@@ -124,12 +120,8 @@
                                         <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '../pages2/endowment.php') ? 'active' : ''; ?>" href="../pages2/endowment.php">Student Endowment</a>
                                         <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/activity.php') ? 'active' : ''; ?>" href="../pages2/activity.php">Student Activities</a>
                                         <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/council.php') ? 'active' : ''; ?>" href="../pages2/council.php">Student Council</a>
-                                    
                                     </div>
                                 </li>
-                                <!-- <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/secab_at_glance.php') ? 'active' : ''; ?>">
-                                        <a class="nav-link" href="../pages2/secab_at_glance.php">Secab At Glance</a>
-                                    </li> -->
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/contact.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages2/contact.php">Contact Us</a>
                                 </li>
@@ -138,20 +130,35 @@
                     </nav>
                 </div>
             </div>
-            <!-- </div> -->
-
-            <!-- </div> -->
         </div>
         <!--/ End Header Inner -->
     </header>
     <!--/ End Header -->
-
-    <!-- jQuery for toggling the active class on nav items -->
     <script>
+        var currentUrl = window.location.href;
+        console.log(currentUrl);
+        document.querySelectorAll('.navbar-nav a').forEach(function(element) {
+            if (element.href === currentUrl) {
+                element.classList.add('active');
+
+                // Find the closest parent with class 'nav-item' and add 'active' class to its first child <a>
+                var navItem = element.closest('.nav-item');
+                if (navItem) {
+                    var mainLink = navItem.querySelector('a');
+                    if (mainLink) {
+                        mainLink.classList.add('active');
+                    }
+                }
+            }
+        });
+    </script>
+
+
+    <!-- <script>
         $(document).ready(function() {
             $(".navbar-nav .nav-item").on("click", function() {
                 $(".navbar-nav .nav-item").removeClass("active");
                 $(this).addClass("active");
             });
         });
-    </script>
+    </script> -->

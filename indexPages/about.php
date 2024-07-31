@@ -1,5 +1,5 @@
 <!-- About Association -->
-<section class="mt-3">
+<section class="" style="margin-top:20%;">
     <div class="container">
         <div class="row">
             <div class="col-md-6">

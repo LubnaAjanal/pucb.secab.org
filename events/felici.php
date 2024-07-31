@@ -1,5 +1,5 @@
 <?php
-include('../header1.php');
+include('../headers/header1.php');
 ?>
 <style>
     .bom-title {
@@ -87,6 +87,6 @@ include('../header1.php');
 
 <!-- Footer -->
 <?php
-include('../topFooter.php');
-include('../bottomFooter.php');
+include('../headers/topFooter.php');
+include('../headers/bottomFooter.php');
 ?>
