@@ -13,7 +13,7 @@ include('../headers/header1.php');
 
 	.swiper-slide {
 		display: inline-block;
-		width: 20%;
+		width: 30%;
 		margin-right: 10px;
 	}
 
@@ -113,8 +113,8 @@ include('../headers/header1.php');
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery1.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery1.jpg)">
+					<a href="../images/gallery/gallery1.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery1.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -122,8 +122,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery2.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery2.jpg)">
+					<a href="../images/gallery/gallery2.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery2.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -140,8 +140,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery4.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery4.jpg)">
+					<a href="../images/gallery/gallery4.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery4.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -158,8 +158,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery6.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery6.jpg)">
+					<a href="../images/gallery/gallery6.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery6.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -176,8 +176,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery8.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery8.jpg)">
+					<a href="../images/gallery/gallery8.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery8.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -203,8 +203,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery11.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery11.jpg)">
+					<a href="../images/gallery/gallery11.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery11.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -221,8 +221,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery13.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery13.jpg)">
+					<a href="../images/gallery/gallery13.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery13.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -257,8 +257,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery17.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery17.jpg)">
+					<a href="../images/gallery/gallery17.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery17.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -284,8 +284,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery20.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery20.jpg)">
+					<a href="../images/gallery/gallery20.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery20.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -302,8 +302,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery22.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery22.jpg)">
+					<a href="../images/gallery/gallery22.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery22.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -320,8 +320,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery24.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery24.jpg)">
+					<a href="../images/gallery/gallery24.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery24.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -329,8 +329,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery25.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery25.jpg)">
+					<a href="../images/gallery/gallery25.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery25.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -338,8 +338,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery26.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery26.jpg)">
+					<a href="../images/gallery/gallery26.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery26.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -347,8 +347,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery27.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery27.jpg)">
+					<a href="../images/gallery/gallery27.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery27.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -356,8 +356,8 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery28.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery28.jpg)">
+					<a href="../images/gallery/gallery28.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery28.jpeg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>
@@ -365,8 +365,314 @@ include('../headers/header1.php');
 					</a>
 				</div>
 				<div class="swiper-slide">
-					<a href="../images/gallery/gallery29.jpg" data-fancybox="gallery">
-						<div class="image" style="background-image: url(../images/gallery/gallery29.jpg)">
+					<a href="../images/gallery/gallery29.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery29.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery30.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery30.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery31.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery31.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery32.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery32.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery33.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery33.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery34.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery34.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery35.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery35.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery36.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery36.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery37.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery37.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery38.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery38.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery39.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery39.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery40.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery40.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery41.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery41.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery42.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery42.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery43.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery43.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery44.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery44.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery45.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery45.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery46.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery46.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery47.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery47.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery48.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery48.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery49.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery49.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery50.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery50.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery51.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery51.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery52.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery52.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery53.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery53.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery54.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery54.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery55.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery55.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery56.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery56.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery57.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery57.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery58.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery58.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery59.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery59.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery60.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery60.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery61.jpeg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery61.jpeg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery62.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery62.jpg)">
+							<div class="overlay">
+								<em class="mdi mdi-magnify-plus"></em>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="../images/gallery/gallery63.jpg" data-fancybox="gallery">
+						<div class="image" style="background-image: url(../images/gallery/gallery63.jpg)">
 							<div class="overlay">
 								<em class="mdi mdi-magnify-plus"></em>
 							</div>

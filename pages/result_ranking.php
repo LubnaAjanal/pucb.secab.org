@@ -308,37 +308,42 @@ include('../headers/header1.php');
 					<tr>
 						<td>1</td>
 						<td>M.B.B.S</td>
-						<td>061</td>
+						<td>83</td>
 					</tr>
 					<tr>
 						<td>2</td>
 						<td>B.D.S</td>
-						<td>040</td>
+						<td>48</td>
 					</tr>
 					<tr>
 						<td>3</td>
 						<td>ISMH</td>
-						<td>030</td>
+						<td>60</td>
 					</tr>
 					<tr>
 						<td>4</td>
 						<td>B.E. / B.Tech</td>
-						<td>656</td>
+						<td>892</td>
 					</tr>
 					<tr>
 						<td>5</td>
 						<td>B.Arch</td>
-						<td>012</td>
+						<td>15</td>
 					</tr>
 					<tr>
 						<td>6</td>
 						<td>B.Sc.(Agri)</td>
-						<td>021</td>
+						<td>29</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>C.A</td>
+						<td>3</td>
 					</tr>
 					<tr style="background-color:#b3b3b3;">
 						<td></td>
 						<td>TOTAL</td>
-						<td>819</td>
+						<td>1,130</td>
 					</tr>
 				</tbody>
 			</table>
@@ -570,6 +575,300 @@ include('../headers/header1.php');
 						<td>2015</td>
 						<td>569</td>
 						<td>96.0</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>Mateen Tariq. A. Shaikh</td>
+						<td>2016</td>
+						<td>571</td>
+						<td>95.2</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>Sohal A. Momin</td>
+						<td>2017</td>
+						<td>574</td>
+						<td>96.0</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>Md Rafeeq N. Nadaf</td>
+						<td>2018</td>
+						<td>547</td>
+						<td>91.7</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>Md Kadee L. Mujawar</td>
+						<td>2019</td>
+						<td>553</td>
+						<td>92.1</td>
+					</tr>
+					<tr>
+						<td>35</td>
+						<td>Safi-u-Rahman Momin</td>
+						<td>2020</td>
+						<td>555</td>
+						<td>92.5</td>
+					</tr>
+					<tr>
+						<td>36</td>
+						<td>Md yaseen Kodagnoor </td>
+						<td>2021</td>
+						<td>590</td>
+						<td>98.3</td>
+					</tr>
+					<tr>
+						<td>37</td>
+						<td>Md Minaam Malil</td>
+						<td>2022</td>
+						<td>574</td>
+						<td>95.6</td>
+					</tr>
+					<tr>
+						<td>38</td>
+						<td>Madeeha Managoli</td>
+						<td>2023</td>
+						<td>571</td>
+						<td>95.1</td>
+					</tr>
+					<tr>
+						<td>39</td>
+						<td>Zobiya Shaikh</td>
+						<td>2024</td>
+						<td>575</td>
+						<td>95.8</td>
+					</tr>
+					<tr>
+						<td>40</td>
+						<td>Sadiya S. Pendari</td>
+						<td>2015</td>
+						<td>535</td>
+						<td>89.1</td>
+					</tr>
+					<tr>
+						<td>41</td>
+
+						<td>Alisha F. Martur</td>
+						<td>2016</td>
+						<td>515</td>
+						<td>85.8</td>
+					</tr>
+					<tr>
+						<td>42</td>
+
+						<td>Md Muzammi S.Bepari</td>
+						<td>2017</td>
+						<td>540</td>
+						<td>90.0</td>
+					</tr>
+					<tr>
+						<td>43</td>
+
+						<td>Anwar N. Konnur</td>
+						<td>2018</td>
+						<td>575</td>
+						<td>90.9</td>
+					</tr>
+					<tr>
+						<td>44</td>
+
+						<td>Parveen Talawar</td>
+						<td>2019</td>
+						<td>585</td>
+						<td>97.5</td>
+					</tr>
+					<tr>
+						<td>45</td>
+
+						<td>Rohan Ashok Desia</td>
+						<td>2020</td>
+						<td>538</td>
+						<td>89.6</td>
+					</tr>
+					<tr>
+						<td>46</td>
+
+						<td>Md Rizwan Soudagar</td>
+						<td>2021</td>
+						<td>565</td>
+						<td>94.1</td>
+					</tr>
+					<tr>
+						<td>47</td>
+
+						<td>Soniya Ramesh Alegavi</td>
+						<td>2022</td>
+						<td>575</td>
+						<td>95.8</td>
+					</tr>
+					<tr>
+						<td>48</td>
+
+						<td>Sugra Banu Patel</td>
+						<td>2023</td>
+						<td>566</td>
+						<td>94.3</td>
+					</tr>
+					<tr>
+						<td>49</td>
+
+						<td>Pruthvi Soradi</td>
+						<td>2024</td>
+						<td>566</td>
+						<td>94.3</td>
+					</tr>
+					<tr>
+						<td>50</td>
+
+						<td>Sadiya S. Pendari</td>
+						<td>2015</td>
+						<td>535</td>
+						<td>89.1</td>
+					</tr>
+					<tr>
+						<td>51</td>
+
+						<td>Alisha F. Martur</td>
+						<td>2016</td>
+						<td>515</td>
+						<td>85.8</td>
+					</tr>
+					<tr>
+						<td>52</td>
+
+						<td>Md Muzammi S.Bepari</td>
+						<td>2017</td>
+						<td>540</td>
+						<td>90.0</td>
+					</tr>
+					<tr>
+						<td>53</td>
+
+						<td>Anwar N. Konnur</td>
+						<td>2018</td>
+						<td>575</td>
+						<td>90.9</td>
+					</tr>
+					<tr>
+						<td>54</td>
+
+						<td>Parveen Talawar</td>
+						<td>2019</td>
+						<td>585</td>
+						<td>97.5</td>
+					</tr>
+					<tr>
+						<td>55</td>
+
+						<td>Rohan Ashok Desia</td>
+						<td>2020</td>
+						<td>538</td>
+						<td>89.6</td>
+					</tr>
+					<tr>
+						<td>56</td>
+
+						<td>Md Rizwan Soudagar</td>
+						<td>2021</td>
+						<td>565</td>
+						<td>94.1</td>
+					</tr>
+					<tr>
+						<td>57</td>
+
+						<td>Soniya Ramesh Alegavi</td>
+						<td>2022</td>
+						<td>575</td>
+						<td>95.8</td>
+					</tr>
+					<tr>
+						<td>58</td>
+
+						<td>Sugra Banu Patel</td>
+						<td>2023</td>
+						<td>566</td>
+						<td>94.3</td>
+					</tr>
+					<tr>
+						<td>59</td>
+
+						<td>Pruthvi Soradi</td>
+						<td>2024</td>
+						<td>566</td>
+						<td>94.3</td>
+					</tr>
+					<tr>
+						<td>60</td>
+
+						<td>Abdulla Siddiqui. S.</td>
+						<td>2016</td>
+						<td>468</td>
+						<td>78.0</td>
+					</tr>
+					<tr>
+						<td>61</td>
+
+						<td>Syapan Mulak R Manur</td>
+						<td>2017</td>
+						<td>531</td>
+						<td>89.0</td>
+					</tr>
+					<tr>
+						<td>62</td>
+
+						<td>Mohin S. Shaikh</td>
+						<td>2018</td>
+						<td>509</td>
+						<td>84.9</td>
+					</tr>
+					<tr>
+						<td>63</td>
+
+						<td>Md Yunus Badeghar</td>
+						<td>2019</td>
+						<td>505</td>
+						<td>84.1</td>
+					</tr>
+					<tr>
+						<td>64</td>
+
+						<td>Mashod-Al-Zama Lahori</td>
+						<td>2020</td>
+						<td>561</td>
+						<td>93.5</td>
+					</tr>
+					<tr>
+						<td>65</td>
+
+						<td>Aman Awati</td>
+						<td>2021</td>
+						<td>565</td>
+						<td>94.1</td>
+					</tr>
+					<tr>
+						<td>66</td>
+
+						<td>Tousif Lohar</td>
+						<td>2022</td>
+						<td>564</td>
+						<td>94.0</td>
+					</tr>
+					<tr>
+						<td>67</td>
+
+						<td>Misbah Jahagirdar</td>
+						<td>2023</td>
+						<td>563</td>
+						<td>93.8</td>
+					</tr>
+					<tr>
+						<td>68</td>
+
+						<td>Maaz Nattarsa</td>
+						<td>2024</td>
+						<td>553</td>
+						<td>92.1</td>
 					</tr>
 				</tbody>
 			</table>

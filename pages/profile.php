@@ -154,7 +154,7 @@ include('../headers/header1.php');
 				<img src="../images/profile1.jpg" alt="profile image" class="img-fluid image" />
 				<div class="image-title" id="image-title" style="background-color:burlywood;">
 					<h5 class="mb-0">Mr.N.S.Bhusnur</h5>
-					<p class="mb-0"> Principal</p>
+					<p class="mb-0">Dean</p>
 				</div>
 			</div>
 			<div class="col-sm aboutcollege">
@@ -171,6 +171,24 @@ include('../headers/header1.php');
 					The college has been assessed and accredited with ‘A’ grade by the Dept.
 					of Pre University Education, Bangalore for imparting quality education,
 					academic excellence and infrastructure.
+				</p>
+			</div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col-sm-6">
+				<img src="../images/principal.jpg" alt="profile image" class="img-fluid image" />
+				<div class="image-title" id="image-title" style="background-color:burlywood;">
+					<h5 class="mb-0">Ms S.K Kattimani</h5>
+					<p class="mb-0">Principal</p>
+				</div>
+			</div>
+			<div class="col-sm aboutcollege">
+				<h3 class="mb-3 pt-3">About The Principal</h3>
+				<p class="pb-3">
+					Ms Sujatha K Kattimani, MA,
+					is the newly appointed Principal of the college.
+					She is positive & adopts various new methods to bring the best from the students. She motivates the Staff to ace for the best..
 				</p>
 			</div>
 		</div>

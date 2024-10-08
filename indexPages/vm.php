@@ -9,7 +9,7 @@
         padding: 5px;
         float: left;
         width: 100%;
-        margin: 50px 0 0 0;
+        margin: 25% 0 0 0;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     }
 
@@ -129,7 +129,7 @@
 </style>
 
 <div class="container vm">
-    <h3 class="mainHeading text-center mt-5 mb-4">VISION & MISSION</h3>
+    <h3 class="mainHeading text-center mt-5 mb-2">VISION & MISSION</h3>
     <!-- <section style="margin-top:50px;"> -->
     <div class="row">
         <div class="col-md-6">

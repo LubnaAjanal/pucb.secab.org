@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>SECAB &minus; PUC BOYS COLLEGE</title>
+    <title>SECAB &minus; P.U COLLEGE</title>
 
     <!-- Web Font -->
     <!-- Bootstrap CSS -->
@@ -59,8 +59,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-15 text-effect">
                     <span>S</span><span>E</span><span>C</span><span>A</span><span>B</span>
-                    <span>P</span><span>U</span><span>C</span>
-                    <span>B</span><span>O</span><span>Y</span><span>S</span>
+                    <span>P</span><span>U</span>
                     <span>C</span><span>O</span><span>L</span><span>L</span><span>E</span><span>G</span><span>E</span>
                     <!-- <div class="mt-0 mb-0">SECAB PUC BOYS COLLEGE</div> -->
                 </div>

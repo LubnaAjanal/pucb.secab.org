@@ -49,13 +49,13 @@ include('../headers/header1.php');
                 <h3 class="card-subtitle mb-2 text-center">SECAB PU COLLEGE FOR BOYS</h3>
                 <p class="card-text">Behind Taj Boudi, Vijaypur – 586101, Karnataka, India.</p>
                 <p class="card-text">Ph: 08352-254850</p>
-                <p class="card-text">Fax: 08352-222769</p>
+                <p class="card-text">Toll Free: +919164941969</p>
                 <p class="card-text">Email: <a href="mailto:secab.boys@gmail.com">secab.boys@gmail.com</a></p>
                 
                 <h3 class="card-subtitle mt-4 mb-2 text-center">SECAB Association</h3>
                 <p class="card-text">12, Naubag, Vijaypur – 586101, Karnataka, India.</p>
                 <p class="card-text">Ph: 08352-251321, 276930</p>
-                <p class="card-text">Fax: 08352-277353</p>
+                <p class="card-text">Toll Free: 08352-277353</p>
                 <p class="card-text">Website: <a href="http://www.secab.org" target="_blank">www.secab.org</a></p>
             </div>
         </div>

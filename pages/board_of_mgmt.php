@@ -65,13 +65,13 @@ include('../headers/header1.php');
 					<td>President</td>
 				</tr>
 				<tr>
-					<td>Mr. R.G.Farooqui</td>
-					<td>M.S. (USA)</td>
-					<td>Director</td>
+					<td>Mr. A.S.Patil</td>
+					<td>B.A., B.P.Ed.</td>
+					<td>Hon. Gen. Secretary</td>
 				</tr>
 				<tr>
-					<td>Mr. A.M.Bagali</td>
-					<td>M.A., M.Ed.</td>
+					<td>Mr. R.G.Farooqui</td>
+					<td>M.S. (USA)</td>
 					<td>Director</td>
 				</tr>
 				<tr>
@@ -80,20 +80,21 @@ include('../headers/header1.php');
 					<td>Director</td>
 				</tr>
 				<tr>
-					<td>Ms. Y.M.Jahagirdar</td>
-					<td>B.A., B.P.Ed.</td>
-					<td>Director</td>
-				</tr>
-				<tr>
-					<td>Mr. SalahuddinAyubi S.P</td>
+					<td>Dr. SalahuddinAyubi S.P</td>
 					<td>B.E., M.B.A. (UK)</td>
 					<td>Director</td>
 				</tr>
 				<tr>
-					<td>Mr. A.S.Patil</td>
-					<td>B.A., B.P.Ed.</td>
-					<td>Hon. Gen. Secretary</td>
+					<td>Dr. Anwar Imaduddin</td>
+					<td>M.Arch., Ph.D. (UK)</td>
+					<td>Director</td>
 				</tr>
+				<tr>
+					<td>Dr. Shujauddin Naimee </td>
+					<td>MBBS, FRCP (UK)</td>
+					<td>Director</td>
+				</tr>
+				
 			</tbody>
 		</table>
 	</div>
@@ -117,140 +118,120 @@ include('../headers/header1.php');
 					<td>1</td>
 					<td>Mr. N.S. Bhusnur</td>
 					<td>M.A. B.Ed. PGDAH</td>
-					<td>Principal</td>
+					<td>Dean</td>
 				</tr>
 				<tr>
 					<td>2</td>
-					<td>Mr. S.S. Kotur</td>
-					<td>M.Sc.</td>
-					<td>Lecturer in Chemistry</td>
+					<td>Ms.S.K.Kattimani</td>
+					<td>M.A.</td>
+					<td>Principal</td>
 				</tr>
+
 				<tr>
 					<td>3</td>
 					<td>Ms.K.P.Sadat</td>
 					<td>M.Sc.</td>
 					<td>Lecturer in Maths</td>
 				</tr>
+
 				<tr>
 					<td>4</td>
-					<td>Dr.M.M.Jahagirdar</td>
-					<td>M.A. M.Ed. M.Phil, Ph.D</td>
-					<td>Lecturer in Hindi</td>
-				</tr>
-				<tr>
-					<td>5</td>
-					<td>Mr.S.C.Patil</td>
-					<td>M.Com</td>
-					<td>Lecturer in Commerce</td>
-				</tr>
-				<tr>
-					<td>6</td>
 					<td>Mr.A.L.Nagur</td>
 					<td>M.A. PGDAH</td>
 					<td>Lecturer in Kannada</td>
 				</tr>
+
 				<tr>
-					<td>7</td>
-					<td>Mr.S.B.Gogi</td>
-					<td>M.P.Ed.</td>
-					<td>Lecturer in Phy. Edn</td>
-				</tr>
-				<tr>
-					<td>8</td>
+					<td>5</td>
 					<td>Ms.R.J.Maniyar</td>
 					<td>M.A.B.Ed.PGDAH</td>
 					<td>Lecturer in History</td>
 				</tr>
 				<tr>
-					<td>9</td>
+					<td>6</td>
 					<td>Ms.R.K.Kokatnur</td>
 					<td>M.Sc.</td>
 					<td>Lecturer in Physics</td>
 				</tr>
 				<tr>
-					<td>10</td>
+					<td>7</td>
 					<td>Mr.L.S.Mujawar</td>
 					<td>M.A. PGDMM</td>
 					<td>Lecturer in Economics</td>
 				</tr>
 				<tr>
-					<td>11</td>
+					<td>8</td>
 					<td>Ms.N.A.Dakhani</td>
 					<td>M.A.B.Ed.</td>
 					<td>Lecturer in Geography</td>
 				</tr>
 				<tr>
-					<td>12</td>
+					<td>9</td>
 					<td>Dr.S.R.Byakod</td>
 					<td>M.Sc.M.Phil.Ph.D</td>
 					<td>Lecturer in Statistics</td>
 				</tr>
 				<tr>
-					<td>13</td>
+					<td>10</td>
 					<td>Mr.S.M.Jain</td>
 					<td>M.A.</td>
 					<td>Lecturer in Pol.Science</td>
 				</tr>
 				<tr>
-					<td>14</td>
+					<td>11</td>
 					<td>Mr.A.N.Risaldar</td>
 					<td>M.A.</td>
 					<td>Lecturer in Sociology</td>
 				</tr>
 				<tr>
-					<td>15</td>
-					<td>Mr.M.M.Guradi</td>
-					<td>M.Sc.</td>
-					<td>Lecturer in Biology</td>
-				</tr>
-				<tr>
-					<td>16</td>
-					<td>Ms.S.K.Kattimani</td>
-					<td>M.A.</td>
+					<td>12</td>
+					<td>Ms S.S.Dakhni</td>
+					<td>MA.</td>
 					<td>Lecturer in English</td>
 				</tr>
 				<tr>
-					<td>17</td>
+					<td>13</td>
 					<td>Mr.A.M.Bagwan</td>
 					<td>MA B.Ed.</td>
 					<td>Lecturer in Arabic</td>
 				</tr>
 				<tr>
+					<td>14</td>
+					<td>Ms Sana Mirza</td>
+					<td>M.Sc B.Ed.</td>
+					<td>Lecturer in Chemistry</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>Ms Seema Anjum Inamdar</td>
+					<td>M.Sc B.Ed.</td>
+					<td>Lecturer in Physics</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>Ms S.M Lahori</td>
+					<td>M.Sc B.Ed.</td>
+					<td>Lecturer in Biology</td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>Mr Santosh Rathore</td>
+					<td>M.com B.Ed.</td>
+					<td>Lecturer in Commerce</td>
+				</tr>
+				<tr>
 					<td>18</td>
-					<td>Mr.S.A.Balsing</td>
-					<td>M.A B.Ed.</td>
-					<td>Lecturer in English*</td>
+					<td>Mr HazaratBilal Hebbal</td>
+					<td>M.Sc B.Ed.</td>
+					<td>Lecturer in Biology</td>
 				</tr>
 				<tr>
 					<td>19</td>
-					<td>Mr.V.N.Sanknal</td>
-					<td>MSc B.Ed.</td>
-					<td>Lecturer in Maths*</td>
+					<td>Ms Naziya.Bakshi</td>
+					<td>M.Sc B.Ed.</td>
+					<td>Lecturer in Mathematics</td>
 				</tr>
-				<tr>
-					<td>20</td>
-					<td>Ms.H.M.Shaikh</td>
-					<td>M.A.</td>
-					<td>Lecturer in Urdu*</td>
-				</tr>
-				<tr>
-					<td>21</td>
-					<td>Ms. M.S.Mathpathi</td>
-					<td>M.Sc.</td>
-					<td>Lecturer in Chemistry*</td>
-				</tr>
-				<tr>
-					<td>22</td>
-					<td>Ms.S.A.Attar</td>
-					<td>M.Sc.</td>
-					<td>Lecturer in Chemistry*</td>
-				</tr>
-				<tr>
-					<td>23</td>
-					<td>Mr.ShaheedIqbal</td>
-					<td>M.Sc.</td>
-					<td>Lecturer in Physics*</td>
-				</tr>				
+
 			</tbody>
 		</table>
 	</div>
@@ -269,78 +250,58 @@ include('../headers/header1.php');
 				</tr>
 			</thead>
 			<tbody>
+
 				<tr>
 					<td>1</td>
-					<td>Ms. R.C. Kamble</td>
-					<td>MLIS</td>
-					<td>Librarian</td>
-				</tr>
-				<tr>
-					<td>2</td>
 					<td>Mr. I.M. Attar</td>
 					<td>B.Com.</td>
 					<td>F.D.A.</td>
 				</tr>
+
 				<tr>
-					<td>3</td>
-					<td>Mr.N.A.Nagral</td>
-					<td>B.Com.</td>
-					<td>S.D.A.</td>
-				</tr>
-				<tr>
-					<td>4</td>
+					<td>2</td>
 					<td>Mr.A.H.Bagwan</td>
 					<td>B.Com.</td>
 					<td>Comp.Operator</td>
 				</tr>
 				<tr>
-					<td>5</td>
-					<td>Ms.R.S.Sali</td>
-					<td>P.U.C.</td>
-					<td>S.D.A</td>
+					<td>7</td>
+					<td>Ms.Bano Hullur</td>
+					<td>B.Com.</td>
+					<td>Computer Operator</td>
 				</tr>
 				<tr>
-					<td>6</td>
+					<td>3</td>
 					<td>Mr.A.A.Jamkhandi</td>
 					<td>P.U.C.</td>
 					<td>S.D.A</td>
 				</tr>
 				<tr>
-					<td>7</td>
-					<td>Mr.V.M.Toravi</td>
-					<td>S.S.L.C.</td>
-					<td>Lab Attender</td>
-				</tr>
-				<tr>
-					<td>8</td>
-					<td>Mr.A.K.Naikodi</td>
-					<td>S.S.L.C.</td>
-					<td>Lab Attender</td>
-				</tr>
-				<tr>
-					<td>9</td>
+					<td>4</td>
 					<td>Mr.M.S.Kamgon</td>
 					<td>S.S.L.C.</td>
-					<td>Lab Attender</td>
+					<td>Librarian</td>
 				</tr>
+
 				<tr>
-					<td>10</td>
+					<td>5</td>
 					<td>Mr.J.J.Bagali</td>
 					<td>S.S.L.C.</td>
 					<td>Lab Attender</td>
 				</tr>
 				<tr>
-					<td>11</td>
+					<td>6</td>
 					<td>Mr.H.M.Pujari</td>
 					<td>S.S.L.C.</td>
 					<td>Peon</td>
 				</tr>
 				<tr>
-					<td>12</td>
+					<td>7</td>
 					<td>Mr.M.M.Mullal</td>
 					<td>S.S.L.C.</td>
 					<td>Peon</td>
 				</tr>
+				
 			</tbody>
 		</table>
 	</div>

@@ -5,10 +5,10 @@
 <style>
     /* Adjust the positioning and width */
     .main-container {
-        height: 50%;
+        height: 60%;
         /* margin-top: 11%; */
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         flex-wrap: wrap;
     }
 
@@ -20,7 +20,7 @@
     .carousel-item img {
         height: 100%;
         width: 100%;
-        object-fit: cover; 
+        object-fit: cover;
     }
 
     /* Adjust carousel controls */
@@ -33,27 +33,57 @@
 <div class="main-container">
     <!-- Gallery Slider -->
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-9">
             <div class="gallery-slider">
                 <div id="gallerySlider" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../images/homePhotos/award1.jpg" alt="Gallery Image 1">
+                            <img src="../images/homePhotos/00.jpg" alt="Gallery Image 1">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/homePhotos/award2.jpg" alt="Gallery Image 2">
+                            <img src="../images/homePhotos/1.jpg" alt="Gallery Image 2">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/homePhotos/g1.jpg" alt="Gallery Image 3">
+                            <img src="../images/homePhotos/2.jpg" alt="Gallery Image 3">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/homePhotos/logo2.jpg" alt="Gallery Image 4">
+                            <img src="../images/homePhotos/3.jpg" alt="Gallery Image 4">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/image1.jpg" alt="Gallery Image 5">
+                            <img src="../images/homePhotos/4.jpg" alt="Gallery Image 5">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/image2.jpg" alt="Gallery Image 6">
+                            <img src="../images/homePhotos/5.jpeg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/18.jpg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/22.jpg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/33.jpg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/34.jpg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/35.jpg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/36.jpg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/37.jpeg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/58.jpeg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/60.jpeg" alt="Gallery Image 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/homePhotos/85.jpg" alt="Gallery Image 6">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#gallerySlider" data-bs-target="#gallerySlider" data-bs-slide="prev">
@@ -66,7 +96,7 @@
             </div>
             <!-- End Gallery Slider -->
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <!-- News and Events -->
             <div class="news-events">
                 <div class="event-list">

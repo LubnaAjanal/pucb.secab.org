@@ -145,6 +145,52 @@
     </div>
 </div>
 
+<div class="container" style="margin-top:5%;margin-bottom:5%;">
+    <h2 class="city-title mb-5">Prospectors</h2>
+    <div class="box-area">
+        <div class="box active">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-person-walking"></i> -->
+            <h2>Ibrahim Roza</h2>
+        </div>
+        <div class="box">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-snowflake"></i> -->
+            <h2>Jamiya Masjid</h2>
+        </div>
+        <div class="box">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-tree"></i> -->
+            <h2>Shri Sidheshwar Temple</h2>
+        </div>
+        <div class="box">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-droplet"></i> -->
+            <h2>Siberia</h2>
+        </div>
+        <div class="box">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-droplet"></i> -->
+            <h2>Shivagiri Temple</h2>
+        </div>
+        <div class="box">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-droplet"></i> -->
+            <h2>Bara Kaman</h2>
+        </div>
+        <div class="box">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-droplet"></i> -->
+            <h2>Asar Mahal</h2>
+        </div>
+        <div class="box">
+            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
+            <!-- <i class="fa-solid fa-droplet"></i> -->
+            <h2>Gagan Mahal</h2>
+        </div>
+    </div>
+</div>
+
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
     $(".box").click(function() {
