@@ -44,9 +44,6 @@
                             <img src="../images/homePhotos/1.jpg" alt="Gallery Image 2">
                         </div>
                         <div class="carousel-item">
-                            <img src="../images/homePhotos/2.jpg" alt="Gallery Image 3">
-                        </div>
-                        <div class="carousel-item">
                             <img src="../images/homePhotos/3.jpg" alt="Gallery Image 4">
                         </div>
                         <div class="carousel-item">
@@ -78,9 +75,6 @@
                         </div>
                         <div class="carousel-item">
                             <img src="../images/homePhotos/58.jpeg" alt="Gallery Image 6">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../images/homePhotos/60.jpeg" alt="Gallery Image 6">
                         </div>
                         <div class="carousel-item">
                             <img src="../images/homePhotos/85.jpg" alt="Gallery Image 6">
