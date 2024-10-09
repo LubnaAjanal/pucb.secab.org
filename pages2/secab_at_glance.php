@@ -78,7 +78,7 @@
 
 <!-- Secab at Glance -->
 <section class="secab">
-	<h2 class="heading" style="width:45%;">SECAB GROUP OF INSTITUTIONS</h2>
+	<h2 class="heading" style="width:55%;">SECAB GROUP OF INSTITUTIONS</h2>
 
 	<h2 class="secab-heading">Engineering</h2>
 	<p><a href="https://siet.secab.org/" target="_blank">SECAB Institute of Engineering and Technology, Vijaypur.</a></a></p>

@@ -79,6 +79,7 @@
         opacity: 0;
         transition: all linear 0.3s;
     }
+
     .box.active h2 {
         opacity: 1;
     }
@@ -88,7 +89,7 @@
         transition: all linear 0.6s;
     }
 
-    .city-title{
+    .city-title {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         text-align: center;
         background-color: burlywood;
@@ -97,10 +98,9 @@
         margin: 0 0 0 38%;
         /* height: 30%; */
     }
-
 </style>
 <div class="container" style="margin-top:5%;margin-bottom:5%;">
-    <h2 class="city-title mb-5">City Gallery</h2>
+    <h2 class="city-title mb-5"><b>City Gallery</b></h2>
     <div class="box-area">
         <div class="box active">
             <img src="../images/aboutPhotos/ibrahimroza.jpg" alt="img">
@@ -139,52 +139,6 @@
         </div>
         <div class="box">
             <img src="../images/aboutPhotos/about7.jpg" alt="img">
-            <!-- <i class="fa-solid fa-droplet"></i> -->
-            <h2>Gagan Mahal</h2>
-        </div>
-    </div>
-</div>
-
-<div class="container" style="margin-top:5%;margin-bottom:5%;">
-    <h2 class="city-title mb-5">Prospectors</h2>
-    <div class="box-area">
-        <div class="box active">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
-            <!-- <i class="fa-solid fa-person-walking"></i> -->
-            <h2>Ibrahim Roza</h2>
-        </div>
-        <div class="box">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
-            <!-- <i class="fa-solid fa-snowflake"></i> -->
-            <h2>Jamiya Masjid</h2>
-        </div>
-        <div class="box">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
-            <!-- <i class="fa-solid fa-tree"></i> -->
-            <h2>Shri Sidheshwar Temple</h2>
-        </div>
-        <div class="box">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
-            <!-- <i class="fa-solid fa-droplet"></i> -->
-            <h2>Siberia</h2>
-        </div>
-        <div class="box">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
-            <!-- <i class="fa-solid fa-droplet"></i> -->
-            <h2>Shivagiri Temple</h2>
-        </div>
-        <div class="box">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
-            <!-- <i class="fa-solid fa-droplet"></i> -->
-            <h2>Bara Kaman</h2>
-        </div>
-        <div class="box">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
-            <!-- <i class="fa-solid fa-droplet"></i> -->
-            <h2>Asar Mahal</h2>
-        </div>
-        <div class="box">
-            <img src="../images/aboutPhotos/prop1.jpg" alt="img">
             <!-- <i class="fa-solid fa-droplet"></i> -->
             <h2>Gagan Mahal</h2>
         </div>

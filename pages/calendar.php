@@ -50,7 +50,7 @@ include('../headers/header1.php');
 
 <!-- Calendar -->
 <section class="section mb-5">
-	<h2 class="heading mb-4" style="width:50%;">CALENDAR OF ARTS & COMMERCE DEPARTMENT</h2>
+	<h2 class="heading mb-4" style="width:30%;">CALENDAR OF EVENTS</h2>
 	<div class="container">
 		<!-- Facts & Figures Table -->
 		<div class="table-container">
@@ -64,7 +64,7 @@ include('../headers/header1.php');
 				<tbody>
 					<tr>
 						<td>June</td>
-						<td>15th June – I PU classes commence. Welcome function to newcomers. Bridge course. Commencement of English Spoken Classes. Arranging wall news-paper. Collection of Bio-data of I PUC. Informing the rules of the college. Conduct of screening test. Providing a set of text book. Teaching through smart board. 1st June commencement of II PU classes.</td>
+						<td>10th June – I PU classes commence. Welcome function to newcomers. Bridge course. Arranging wall news-paper. Collection of Bio-data of I PUC. Informing the rules of the college. Conduct of screening test. Providing a set of text book. Teaching through smart board. 1st June commencement of II PU classes.</td>
 					</tr>
 					<tr>
 						<td>July</td>
@@ -72,19 +72,19 @@ include('../headers/header1.php');
 					</tr>
 					<tr>
 						<td>August</td>
-						<td>College level literary competitions. Guest lectures. Celebration of Independence Day. Remedial classes for slow learners,test result and follow-up programme. Elocutioncompetition on the occasion of the Independence Day. Group discussion & Seminars. Medical checkup. Guest lecture on Career opportunities. I Quarterly examination for I& II Year. Display of absentees list in first week of month, Parents meet of I& II year &counseling students & parents.</td>
+						<td>College level literary competitions. Guest lectures. Celebration of Independence Day.Elocutioncompetition on the occasion of the Independence Day. Guest lecture on Career opportunities. I Quarterly examination for I& II Year. Display of absentees list in first week of month, Parents meet of I& II year &counseling students & parents.</td>
 					</tr>
 					<tr>
 						<td>September</td>
-						<td>Notification of absentees list. Celebration of Teachers day. Study / Local visit.Visit to APMC Market, Banks. Practical accounting programme. Mid-Term Examination. Seminars and Group discussion.</td>
+						<td>Notification of absentees list. Celebration of Teachers day. Seminars and Group discussion.</td>
 					</tr>
 					<tr>
 						<td>October</td>
-						<td>Gandhi Jayanthi celebration. Conduct of classes in vacation. N.S.S.Camp. Mid –Term vacation. Sports week - Team Games.</td>
+						<td>Gandhi Jayanthi celebration.Vacation, Mid-Term Examination, Mid –Term vacation. Sports week - Team Games.</td>
 					</tr>
 					<tr>
 						<td>November</td>
-						<td>Karnataka Rajyotsava day celebration. Divisional level cultural competition. Monthly Test.</td>
+						<td>Karnataka Rajyotsava day celebration. Divisional level cultural competition, N.S.S.Camp, Study / Local visit.</td>
 					</tr>
 					<tr>
 						<td>December</td>
@@ -92,7 +92,7 @@ include('../headers/header1.php');
 					</tr>
 					<tr>
 						<td>January</td>
-						<td>Felicitation of meritorious students and College Annual Day.Celebration of Republic Day.Preparatory Series For I& II Year.Special coaching for above average, average and below average students. Revision,Sky observation programme.</td>
+						<td>Felicitation of meritorious students and College Annual Day.Celebration of Republic Day.Preparatory Series For I& II Year.Special coaching for above average, average and below average students. Revision.</td>
 					</tr>
 					<tr>
 						<td>February</td>

@@ -183,7 +183,7 @@ include('../headers/header1.php');
 					<p class="mb-0">Principal</p>
 				</div>
 			</div>
-			<div class="col-sm aboutcollege">
+			<div class="col-sm aboutcollege" style="margin-top:20%;">
 				<h3 class="mb-3 pt-3">About The Principal</h3>
 				<p class="pb-3">
 					Ms Sujatha K Kattimani, MA,
@@ -197,6 +197,7 @@ include('../headers/header1.php');
 <?php
 include('../indexPages/aboutCity.php');
 include('../indexPages/aboutGallery.php');
+include('../pages/prospactus.php');
 include('../pages2/secab_at_glance.php');
 ?>
 

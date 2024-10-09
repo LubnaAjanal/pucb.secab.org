@@ -93,7 +93,14 @@
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/result_ranking.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages/result_ranking.php">Result & Ranking</a>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/calendar.php') ? 'active' : ''; ?>">
+                                    <a class="nav-link" href="../pages/calendar.php">Calendar</a>
+                                </li>
+                                <!-- <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/prospactus.php') ? 'active' : ''; ?>">
+                                    <a class="nav-link" href="../pages/calendar.php">Prospactus</a>
+                                </li> -->
+
+                                <!-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle <?php echo ($_SERVER['PHP_SELF'] == '/pages/calendar.php' || $_SERVER['PHP_SELF'] == '/pages/calendar1.php') ? 'active' : ''; ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Calendar
                                     </a>
@@ -101,9 +108,9 @@
                                         <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/calendar.php') ? 'active' : ''; ?>" href="../pages/calendar.php">Arts & Commerce</a>
                                         <a class="dropdown-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/calendar1.php') ? 'active' : ''; ?>" href="../pages/calendar1.php">Science</a>
                                     </div>
-                                </li>
+                                </li> -->
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages/photo_gallery.php') ? 'active' : ''; ?>">
-                                    <a class="nav-link" href="../pages/photo_gallery.php">Photo Gallery</a>
+                                    <a class="nav-link" href="../pages/photo_gallery.php">College Gallery</a>
                                 </li>
                                 <li class="nav-item <?php echo ($_SERVER['PHP_SELF'] == '/pages2/facilities.php') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="../pages2/facilities.php">Facilities</a>
