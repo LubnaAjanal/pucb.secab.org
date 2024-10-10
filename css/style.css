@@ -222,11 +222,11 @@ body {
 	display: inline-block;
 }
 
-.header1 .nav-link:hover,
-.header1 .nav-item .active>.nav-link {
+/* .header1 .nav-item .nav-link:hover,
+.header1 .nav-item .active {
 	color: #068f1d;
 	text-decoration: underline;
-}
+} */
 
 .header1 .dropdown-menu {
 	margin-top: 0;

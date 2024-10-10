@@ -162,8 +162,8 @@
 
     <!-- <script>
         $(document).ready(function() {
-            $(".navbar-nav .nav-item").on("click", function() {
-                $(".navbar-nav .nav-item").removeClass("active");
+            $(".navbar-nav .nav-item .nav-link").on("click", function() {
+                $(".navbar-nav .nav-item .nav-link").removeClass("active");
                 $(this).addClass("active");
             });
         });
