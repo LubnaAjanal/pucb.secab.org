@@ -5,16 +5,19 @@
 <style>
     /* Adjust the positioning and width */
     .main-container {
-        height: 60%;
-        /* margin-top: 11%; */
-        display: flex;
-        /* justify-content: space-between; */
-        flex-wrap: wrap;
+        height: 50%;
+        margin: 0;
     }
 
-    #gallerySlider {
-        width: 100%;
+    .gallery-slider .carousel {
+        max-width: 1000px;
+        max-height: 300px;
+    }
+
+    .carousel-inner {
         height: 100%;
+        max-width: 100%;
+        object-fit: cover;
     }
 
     .carousel-item img {
@@ -96,154 +99,111 @@
                 <div class="event-list">
                     <div class="event-heading">News & Events</div>
                     <marquee direction="down" ONMOUSEOVER="this.stop();" ONMOUSEOUT="this.start();" scrollamount="2" width="100%" height="400px" loop="true">
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/at_lab19.php" target=_self>A matter of great pleasure to share that, in the whole of North Karnataka, SECAB PU College for BOYS, got permission to establish Atal Tinkering Lab ( ATL ) by NITI Ayog New Delhi.</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlbdmntcompi.php" target=_self>Shoukat Ali Magi and Junaid Abbas Kaladagi, got selected in District Sports Shuttle Badminton Competition.</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>Ms.Sana Mujawar of II PU Science was adjudged as the State Level First Rank Holder.</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>SECAB Association cordially welcomes you on the occasion of its 'Founder's Day' Celebration on 10th January 2019, at 3:00pm....</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>SECAB P U COLLEGE FOR BOYS,BIJAPUR Two students got selected at State Level Essay competition in English held at Ron dist Gadag.</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>State Best Lecturer Award 2018 Dr.Sidhangouda.R.Byakod (M.Sc,M.Phil,Ph.D)</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>Dr.M.M Jahagirdar, PhD has been conferred the Swami Vivekanand Trust's "Shikshan Ratan Award" In Bangalore.</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>Mr A.L.NAGUR has been conferred the state's best kannada lecturer award -2017 from honorable Chief &Education Minsters in bangalore</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>Selection of sportsmen from the new batch students</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>Inaugural of A Skill Enhancement Programme.</a>
-                        </div>
-                        <div class="event-item">
-                            <i class="bi bi-award-fill"></i>
-                            <a href="../awards/stlvlfstrnk.php" target=_self>Lecturer Award News</a>
+
+                        <div class="news-item">
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/78th Independence Day.pdf" target="_blank">78th Independence Day</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/womensday.php" target=_self> International Women's Day Celebration</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Educator Award 2024.pdf" target="_blank">Educators Award</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/NEETtalk.php" target=_self>A Talk on NEET</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Alumnus Newly Appointed Civil Judge.pdf" target="_blank">Alumnus Newly Appointed Civil Judge</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/distlevel2k20.php" target=_self>District Level Collage Competition</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Gandi Jayanthi.pdf" target="_blank">Gandi Jayanthi</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/atal.php" target=_self>Inaugural function of ATAL</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Guest lectures in Sister Institutions.pdf" target="_blank">Guest lectures in Sister Institutions</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/guest_lectures.php" target=_self>Guest lectures</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Health and Hygiene  Awareness  Program.pdf" target="_blank">Health and Hygiene Awareness Program</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/girl_sports.php" target=_self>Sports</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/INAUGURAL FUNCTION OF SCIENCE CLUB.pdf" target="_blank">INAUGURAL FUNCTION OF SCIENCE CLUB</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/Workshop_atal.php" target=_self>Workshop Conducted for PU Science Students at "ATAL TINKERING LAB"</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/INAUGURAL PROGRAM OF NSS.pdf" target="_blank">INAUGURAL PROGRAM OF NSS</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/excursion19.php" target=_self>Excursion was Arranged for the Students</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Inspection.pdf" target="_blank">Inspection</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/extspch19.php" target=_self>Extempore Speech Competition</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/International Yoga Day.pdf" target="_blank">International Yoga Day</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/education_day.php" target=_self>National Education Day</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/MOTIVATIONAL TALK 2.pdf" target="_blank">MOTIVATIONAL TALK 2</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/dis_cultural.php" target=_self>District level cultural competitions</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Motivational Talk.pdf" target="_blank">Motivational Talk</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/ele_club.php" target=_self>Electoral Literacy Club</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/National Junior T20 Tennis.pdf" target="_blank">National Junior T20 Tennis</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/dstrct_topper.php" target=_self>District Topper</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/NEET AWARENESS  PROGRAM.pdf" target="_blank">NEET AWARENESS PROGRAM</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="images/news.png" width="30" height="20" /> <a href="../events/super30_movie.php" target=_self>Super-30 Movie</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/NEET CLASS.pdf" target="_blank">NEET CLASS</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="images/news.png" width="30" height="20" /> <a href="../events/basketball.php" target=_self>Basketball District Level Competition</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Ranger & Rover Camp.pdf" target="_blank">Ranger & Rover Camp</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="images/news.png" width="30" height="20" /> <a href="../events/sci_prnt_meet19.php" target=_self>Parent - Teacher Meet 2019 for Science Department</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/SNAP CLASSES.pdf" target="_blank">SNAP CLASSES</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="images/news.png" width="30" height="20" /> <a href="../events/gst_lecture.php" target=_self>Guest Lecture by Dr Nikhat Inamdar Dr Sana Baigh</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Students Union Election.pdf" target="_blank">Students Union Election</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="images/news.png" width="30" height="20" /> <a href="../events/sadbhavana.php" target=_self>Sadbhavana Diwas</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/Teacher's Day.pdf" target="_blank">Teacher's Day</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="images/news.png" width="30" height="20" /> <a href="../events/prnt_meet19.php" target=_self>Parent - Teacher Meet 2019</a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/WELCOME FUNCTION OF I PU.pdf" target="_blank">WELCOME FUNCTION OF I PU</a>
                         </div>
                         <div class="news-item">
-                            <img alt="" src="images/news.png" width="30" height="20" /> <a href="../events/exhb_health.php" target=_self>Exhibition on Health Awareness</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/sci_club.php" target=_self>Inauguration of Science Club</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/e_morals.php" target=_self>Organized an Enriching Moral Session </a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/knowYourself.php" target=_self>Cultural Team Organized a Talk on "Know Yourself" </a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/sglance.php" target=_self>SECAB at Glance </a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/result19.php" target=_self>I & II PUC RESULT</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/anual19.php" target=_self>Annual Day Celebration 2019</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/moral.php" target=_self>Programme On "Moral & Human Values"</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/felici.php" target=_self>New DDPUE Felicitation</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/prgmAntiToba.php" target=_self>Programme On "Anti Tobacco Advocacy"</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/pgrm.php" target=_self>Department Of Arts Organized A Program For The Students</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/sciClub.php" target=_self>Inauguration Of The Science Club</a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/award2.php" target=_self>Dr.Sidhangouda.R.Byakod M.Sc,M.Phil,Ph.D. has been conferred with the Govt of Karnataka "State Best Lecturer" </a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/guest_lecture.php" target=_self>Economics Department Organised A Guest Lecture </a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/15aug.php" target=_self>15 August Independence Day </a>
-                        </div>
-                        <div class="news-item">
-                            <img alt="" src="../images/news.png" width="30" height="20" /> <a href="../events/topper.php" target=_self>College Toppers banner </a>
+                            <i class="bi bi-balloon-fill text-success"></i>
+                            <!-- <img alt="" src="../images/news.png" width="30" height="20" /> -->
+                            <a href="../images/events/WORKSHOP.pdf" target="_blank">WORKSHOP</a>
                         </div>
                     </marquee>
                 </div>

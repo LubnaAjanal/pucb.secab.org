@@ -49,7 +49,7 @@
         <div class="header-inner overlay">
             <!-- <div class="container"> -->
             <div class="row align-items-center">
-                <div class="col-lg-3 col-md-3 col-15">
+                <div class="col-md-3">
                     <!-- Logo -->
                     <div class="logo">
                         <a href="index.html">
@@ -57,7 +57,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-15 text-effect">
+                <div class="col-md-6 text-effect">
                     <span>S</span><span>E</span><span>C</span><span>A</span><span>B</span>
                     <span>P</span><span>U</span>
                     <span>C</span><span>O</span><span>L</span><span>L</span><span>E</span><span>G</span><span>E</span>
